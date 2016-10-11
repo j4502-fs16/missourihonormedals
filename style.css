@@ -1,2 +1,20 @@
-# missourihonormedals
-Missouri Honor Medals group J4502
+.header{
+	width: 100%;
+	height: 50px;
+	background-color: #000000;
+	font-family: Janson, "Times New Roman", serif;
+	font-size: 42pt;
+}
+
+h1{
+  font-family: Janson, "Times New Roman", serif;
+  background-color: #F1B82D;
+}
+
+.footer{
+  width: 100%;
+  height: 20px;
+  background-color: #000000;
+  font-family: Janson, "Times New Roman", serif;
+  font-size: 12pt;
+}
