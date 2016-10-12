@@ -25,13 +25,16 @@
 }
 
 .nav li{
-	border-top: 5px solid #F1B82D;
-	border-left: 5px solid #F1B82D;
-	border-right: 5px solid #F1B82D;
+	border-left: 2px solid #F1B82D;
+	border-right: 2px solid #F1B82D;
+}
+
+.border-top{
+	border-top: 2px solid #F1B82D;
 }
 
 .border-bottom{
-	border-bottom: 5px solid #F1B82D;
+	border-bottom: 2px solid #F1B82D;
 }
 
 ul{
