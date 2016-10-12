@@ -17,6 +17,21 @@
   border-color: #F1B82D;
 }
 
+h1{
+	font-family: Janson, "Times New Roman", serif;
+	font-size: 3em;
+}
+
+h2{
+	font-family: Janson, "Times New Roman", serif;
+	font-size: 2em;
+}
+
+h3{
+	font-family: Janson, "Times New Roman", serif;
+	font-size: 1.3em;
+}
+
 body{
   background-color: #ffffff;
 }
