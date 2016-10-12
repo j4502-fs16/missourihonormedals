@@ -13,8 +13,10 @@
   font-weight: bold;
   background-color: #DBD5CD;
   color: #000000;
-  border: 2px;
+  border: 5px;
   border-color: #F1B82D;
+	width: 100%;
+	height: auto;
 }
 
 h2{
