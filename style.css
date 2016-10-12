@@ -4,7 +4,7 @@
 	background-color: #000000;
   color: #ffffff;
 	font-family: Janson, "Times New Roman", serif;
-	font-size: 1.7em;
+	font-size: 5em;
 }
 
 .nav{
@@ -31,6 +31,7 @@ p{
   width: 100%;
   height: 20px;
   background-color: #000000;
+	text-align: left;
   font-family: Janson, "Times New Roman", serif;
   font-size: 1em;
 }
