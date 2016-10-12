@@ -13,7 +13,7 @@
   font-weight: bold;
   background-color: #DBD5CD;
   color: #000000;
-	width: 100%;
+	width: auto;
 	height: auto;
 	list-style: none;
 	text-decoration: none;
@@ -27,6 +27,7 @@
 .nav li{
 	border-left: 2px solid #F1B82D;
 	border-right: 2px solid #F1B82D;
+	width: auto;
 }
 
 .border-top{
