@@ -106,9 +106,10 @@ img{
 
 hr{
 	display: block;
-	border-width: 5px solid;
-	border-color: #F1B82D;
+	height: 7px;
 	width: auto;
+	background-color: #F1B82D;
+	border: 0;
 }
 
 .imghome{
