@@ -99,6 +99,10 @@ img{
 	border-style: none;
 }
 
+.imghome {
+	width:800px;
+}
+
 .caption{
 	font-size: .75em;
 	font-family: "Proxima Nova", Helvetica, sans-serif;
