@@ -95,11 +95,13 @@ p{
   font-size: 1em;
   font-weight: lighter;
   color: #000000;
+	margin: 6px;
 }
 
 img{
 	width: 300px;
 	border-style: none;
+	margin: 6px;
 }
 
 .imghome{
