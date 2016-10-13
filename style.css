@@ -34,7 +34,6 @@
 	font-family: "Proxima Nova", Helvetica, sans-serif;
   font-weight: bold;
   background-color: #DBD5CD;
-	width: auto;
 	height: auto;
 	float: left;
 	text-align: center;
@@ -51,7 +50,7 @@
 li a{
 	color: #000000;
 	text-decoration: none;
-	width: auto;
+	width: 8.3%;
 	font-size: 1em;
 }
 
