@@ -98,10 +98,14 @@ p{
 }
 
 img{
-	width: 100%;
+	width: 300px;
 	border-style: none;
 }
 
+.imghome{
+	width: 100%;
+	border-style: none;
+}
 
 .caption{
 	font-size: .75em;
