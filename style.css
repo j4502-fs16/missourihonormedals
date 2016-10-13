@@ -104,6 +104,13 @@ img{
 	margin: 6px;
 }
 
+hr{
+	display: block;
+	border-width: 5px solid;
+	border-color: #F1B82D;
+	width: auto;
+}
+
 .imghome{
 	width: 100%;
 	border-style: none;
