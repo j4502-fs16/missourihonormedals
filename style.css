@@ -73,17 +73,20 @@ ul{
 h2{
 	font-family: Janson, "Times New Roman", serif;
 	font-size: 3em;
+	margin: 6px;
 }
 
 h3{
 	font-family: Janson, "Times New Roman", serif;
 	font-size: 1.5em;
+	margin: 6px;
 }
 
 h4{
 	font-family: Janson, "Times New Roman", serif;
 	font-weight: bold;
 	font-size: 1em;
+	margin: 6px;
 }
 
 body{
@@ -110,6 +113,7 @@ hr{
 	width: auto;
 	background-color: #F1B82D;
 	border: 0;
+	margin: 6px;
 }
 
 .imghome{
