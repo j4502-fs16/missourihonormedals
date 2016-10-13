@@ -38,6 +38,7 @@
 	height: auto;
 	float: left;
 	text-align: center;
+	padding: 3px;
 	border-top: 2px solid #F1B82D;
 	border-bottom: 2px solid #F1B82D;
 	border-left: 2px solid #F1B82D;
@@ -50,6 +51,8 @@
 li a{
 	color: #000000;
 	text-decoration: none;
+	width: auto;
+	font-size: 1em;
 }
 
 .border-top{
@@ -75,7 +78,9 @@ h3{
 }
 
 h4{
-
+	font-family: Janson, "Times New Roman", serif;
+	font-weight: bold;
+	font-size: 1em;
 }
 
 body{
