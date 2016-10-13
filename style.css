@@ -36,15 +36,20 @@
   background-color: #DBD5CD;
 	width: auto;
 	height: auto;
+	float: left;
+	text-align: center;
 	border-top: 2px solid #F1B82D;
-	border-right: 2px solid #F1B82D;
+	border-bottom: 2px solid #F1B82D;
 	border-left: 2px solid #F1B82D;
+}
+
+#border-right{
+	border-right: 2px solid #F1B82D;
 }
 
 li a{
 	color: #000000;
 	text-decoration: none;
-	list-style: none;
 }
 
 .border-top{
@@ -67,6 +72,10 @@ h2{
 h3{
 	font-family: Janson, "Times New Roman", serif;
 	font-size: 1.5em;
+}
+
+h4{
+
 }
 
 body{
