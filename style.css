@@ -1,3 +1,7 @@
+.menu{
+	float:left;
+}
+
 .header{
 	width: 100%;
 	height: auto;
@@ -6,6 +10,11 @@
 	font-family: Janson, "Times New Roman", serif;
 	font-size: 4em;
 	text-align: center;
+	margin:0;
+}
+
+.search{
+	float:right;
 }
 
 .nav{
@@ -120,6 +129,18 @@ hr{
 	width: 100%;
 	border-style: none;
 }
+
+
+.search_icon{
+	width:50px;
+	float:right;
+}
+
+.menu_icon{
+	width:50px;
+	float:left;
+}
+
 
 .caption{
 	font-size: .75em;
