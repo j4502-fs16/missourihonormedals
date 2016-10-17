@@ -62,7 +62,7 @@ a:hover, a:active{
 	text-decoration: none;
 }
 
-.nav a:visited{
+.nav a:link, .nav a:visited{
 	font-family:"Proxima Nova", Helvetica, sans-serif;
 }
 
