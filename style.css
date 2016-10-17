@@ -154,6 +154,18 @@ h1{
 	margin: 15px;
 }
 
+h1 a:link, h1:visited{
+	font-family: Janson, "Times New Roman", serif;
+	font-size: 3em;
+	color:#FFFFFF;
+	text-decoration:none;
+}
+
+h1 a:hover, h1 a:active{
+	font-family: Janson, "Times New Roman", serif;
+	text-decoration:none;
+}
+
 h2{
 	font-family: Janson, "Times New Roman", serif;
 	font-size: 3em;
