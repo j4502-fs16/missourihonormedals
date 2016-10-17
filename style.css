@@ -58,12 +58,14 @@ a:hover, a:active{
 
 .nav a:hover, .nav a:active{
 	font-family:"Proxima Nova", Helvetica, sans-serif;
-	color: #000000;
+	color: #F1B82D;
 	text-decoration: none;
 }
 
 .nav a:link, .nav a:visited{
 	font-family:"Proxima Nova", Helvetica, sans-serif;
+	text-decoration: none;
+	color:#000000
 }
 
 .nav li{
