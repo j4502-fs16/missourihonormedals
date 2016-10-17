@@ -264,3 +264,9 @@ a{
 	font-size: 1em;
 	float:right;
 }
+
+.nom-mug{
+	width: 200px;
+	padding: 5px;
+	float:left;
+}
