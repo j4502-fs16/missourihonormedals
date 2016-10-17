@@ -199,3 +199,9 @@ img{
 	color:#84754E;
 	text-decoration:underline;
 }
+
+.nav-arrow1{
+	font-family:"Wingdings 3";
+	font-size: 1em;
+	float:right;
+}
