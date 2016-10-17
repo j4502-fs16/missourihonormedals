@@ -98,7 +98,6 @@ a:hover, a:active{
 	border-left: 2px solid #F1B82D;
 	border-right: 2px solid #F1B82D;
 	padding: 3px;
-	flex:none;
 	align-self: center;
 	flex-wrap: nowrap;
 	flex-flow: column;
@@ -108,14 +107,12 @@ a:hover, a:active{
 #nav2 {
   display: flex;
   flex-flow: row wrap;
-  /* This aligns items to the end line on main-axis */
-  justify-content: flex-end;
+  justify-content: space-around;
 }
 
 /* Medium screens */
 @media all and (max-width: 800px) {
   #nav2 {
-    /* When on medium sized screens, we center it by evenly distributing empty space around items */
     justify-content: space-around;
   }
 }
@@ -123,7 +120,6 @@ a:hover, a:active{
 /* Small screens */
 @media all and (max-width: 500px) {
   #nav2 {
-    /* On small screens, we are no longer using row direction but column */
     flex-direction: column;
   }
 }
