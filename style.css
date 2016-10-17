@@ -29,6 +29,20 @@
 	margin-top: 5px;
 }
 
+a:link, a:visited{
+	font-family: "Proxima Nova", Helvetica, sans-serif;
+	font-size: 0.9em;
+	color:#000000;
+	text-decoration:underline;
+}
+
+a:hover, a:active{
+	font-family: "Proxima Nova", Helvetica, sans-serif;
+	font-size: 0.9em;
+	color:#F1B82D;
+	text-decoration:underline;
+}
+
 .nav{
   font-family: "Proxima Nova", Helvetica, sans-serif;
   font-weight: bold;
@@ -41,9 +55,15 @@
 	background-clip: content-box;
 	margin-left: -35px;
 }
+.nav a:link, .nav a:visited{
+	font-family:"Proxima Nova", Helvetica, sans-serif;
+	text-decoration: none;
+	color:#000000
+}
 
-.nav a{
-	color: #000000;
+.nav a:hover, .nav a:active{
+	font-family:"Proxima Nova", Helvetica, sans-serif;
+	color: #F1B82D;
 	text-decoration: none;
 }
 
@@ -80,7 +100,7 @@
 	flex:none;
 	align-self: center;
 	flex-wrap: nowrap;
-	flex-flow: row;
+	flex-flow: column;
 }
 
 #border-right{
