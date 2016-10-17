@@ -29,6 +29,20 @@
 	margin-top: 5px;
 }
 
+a:visited{
+	font-family: "Janson", "Times New Roman", serif;
+	font-size: 0.9em;
+	color:#000000;
+	text-decoration:underline;
+}
+
+a:hover{
+	font-family: "Janson", "Times New Roman", serif;
+	font-size: 0.9em;
+	color:#F1B82D;
+	text-decoration:underline;
+}
+
 .nav{
   font-family: "Proxima Nova", Helvetica, sans-serif;
   font-weight: bold;
@@ -197,19 +211,4 @@ a{
 	font-family:"Wingdings 3";
 	font-size: 1em;
 	float:right;
-}
-
-a:visited{
-	font-family: "Janson", "Times New Roman", serif;
-	font-size: 0.9em;
-	color:#000000;
-	text-decoration:underline;
-}
-
-a:hover{
-	font-family: "Janson", "Times New Roman", serif;
-	font-size: 0.9em;
-	color:#F1B82D;
-	text-decoration:underline;
->>>>>>> origin/master
 }
