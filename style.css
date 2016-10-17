@@ -64,7 +64,7 @@
   font-weight: bold;
   background-color: #DBD5CD;
 	height: auto;
-	width: 6%;
+	width: 7%;
 	float: left;
 	text-align: center;
 	border-top: 2px solid #F1B82D;
@@ -152,14 +152,6 @@ img{
 	background-color: #DBD5CD;
 }
 
-.containertitle{
-	background-color: #F1B82D;
-	font-family: Janson, "Times New Roman", serif;
-	font-size: 1.5em;
-	font-weight: bold;
-	text-align: center;
-}
-
 .mug{
 	width: 150px;
 	border-style: none;
@@ -193,15 +185,31 @@ img{
 	padding-left: 5px;
 }
 
-.read-more{
+a{
 	font-family: "Janson", "Times New Roman", serif;
-	font-size: 0.875em;
+	font-size: 0.9em;
 	color:#84754E;
 	text-decoration:underline;
 }
+
 
 .nav-arrow1{
 	font-family:"Wingdings 3";
 	font-size: 1em;
 	float:right;
+}
+
+a:visited{
+	font-family: "Janson", "Times New Roman", serif;
+	font-size: 0.9em;
+	color:#000000;
+	text-decoration:underline;
+}
+
+a:hover{
+	font-family: "Janson", "Times New Roman", serif;
+	font-size: 0.9em;
+	color:#F1B82D;
+	text-decoration:underline;
+>>>>>>> origin/master
 }
