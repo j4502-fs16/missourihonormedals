@@ -84,7 +84,7 @@ a:hover, a:active{
 	justify-content: space-around;
 	align-items: center;
 	align-content: space-around;
-	width: auto;
+	width: 100%;
 }
 
 #nav2 li{
