@@ -6,6 +6,7 @@
 	font-family: Janson, "Times New Roman", serif;
 	font-size: 4em;
 	text-align: center;
+<<<<<<< HEAD
 	margin:0;
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -13,20 +14,23 @@
 
 .search{
 	float:right;
+=======
+	margin:5;
+>>>>>>> origin/master
 }
 
 .search_icon{
-	width:60px;
+	width:55px;
 	float:right;
+	padding-top: 0;
+	margin-top: 10px;
 }
 
-.menu{
-	float:left;
-}
 
 .menu_icon{
-	width:60px;
+	width:70px;
 	float:left;
+	margin-top: 5px;
 }
 
 .nav{
