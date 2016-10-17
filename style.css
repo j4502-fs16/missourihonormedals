@@ -228,17 +228,3 @@ a{
 	font-size: 1em;
 	float:right;
 }
-
-a:visited{
-	font-family: "Proxima Nova", Helvetica, sans-serif;
-	font-size: 1em;
-	color:#000000;
-	text-decoration:underline;
-}
-
-a:hover{
-	font-family: "Proxima Nova", Helvetica, sans-serif;
-	font-size: 1em;
-	color:#F1B82D;
-	text-decoration:underline;
-}
