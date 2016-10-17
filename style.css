@@ -64,12 +64,14 @@
   font-weight: bold;
   background-color: #DBD5CD;
 	height: auto;
-	width: 7%;
 	float: left;
 	text-align: center;
 	border-top: 2px solid #F1B82D;
 	border-bottom: 2px solid #F1B82D;
 	border-left: 2px solid #F1B82D;
+	display: flex;
+	flex-flow: wrap;
+	justify-content: flex-end;
 }
 
 #border-right{
@@ -186,22 +188,22 @@ img{
 }
 
 a{
-	font-family: "Janson", "Times New Roman", serif;
-	font-size: 0.9em;
+	font-family: "Proxima Nova", Helvetica, sans-serif;
+	font-size: 1em;
 	color:#84754E;
 	text-decoration:underline;
 }
 
 a:visited{
-	font-family: "Janson", "Times New Roman", serif;
-	font-size: 0.9em;
+	font-family: "Proxima Nova", Helvetica, sans-serif;
+	font-size: 1em;
 	color:#000000;
 	text-decoration:underline;
 }
 
 a:hover{
-	font-family: "Janson", "Times New Roman", serif;
-	font-size: 0.9em;
+	font-family: "Proxima Nova", Helvetica, sans-serif;
+	font-size: 1em;
 	color:#F1B82D;
 	text-decoration:underline;
 }
