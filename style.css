@@ -7,40 +7,63 @@
 	font-size: 4em;
 	text-align: center;
 	margin:0;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 .search{
 	float:right;
+	margin:5;
 }
 
 .search_icon{
-	width:60px;
+	width:55px;
 	float:right;
-}
-
-.menu{
-	float:left;
+	padding-top: 0;
+	margin-top: 10px;
 }
 
 .menu_icon{
-	width:60px;
+	width:100px;
 	float:left;
+	margin-top: 5px;
+}
+
+a:link, a:visited{
+	font-family: "Proxima Nova", Helvetica, sans-serif;
+	font-size: 1em;
+	color:#000000;
+	text-decoration:underline;
+}
+
+a:hover, a:active{
+	font-family: "Proxima Nova", Helvetica, sans-serif;
+	font-size: 1em;
+	color:#F1B82D;
+	text-decoration:underline;
 }
 
 .nav{
   font-family: "Proxima Nova", Helvetica, sans-serif;
   font-weight: bold;
-  background-color: #DBD5CD;
+  background-color: #DBD5CD;;
   color: #000000;
 	width: auto;
 	height: auto;
 	list-style: none;
 	text-decoration: none;
 	background-clip: content-box;
+	margin-left: -35px;
+}
+.nav a:link, .nav a:visited{
+	font-family:"Proxima Nova", Helvetica, sans-serif;
+	text-decoration: none;
+	color:#000000
 }
 
-.nav a{
-	color: #000000;
+.nav a:hover, .nav a:active{
+	font-family:"Proxima Nova", Helvetica, sans-serif;
+	color: #F1B82D;
 	text-decoration: none;
 }
 
@@ -55,18 +78,50 @@
 	width: auto;
 	padding: 0px;
 }
-/* we'll be using flexbox to make the nav responsive here*/
+
+.nav2container{
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: space-around;
+	width: 100%;
+}
+
 #nav2 li{
 	font-family: "Proxima Nova", Helvetica, sans-serif;
   font-weight: bold;
   background-color: #DBD5CD;
 	height: auto;
-	width: 6%;
-	float: left;
 	text-align: center;
 	border-top: 2px solid #F1B82D;
 	border-bottom: 2px solid #F1B82D;
 	border-left: 2px solid #F1B82D;
+	border-right: 2px solid #F1B82D;
+	padding: 3px;
+	align-self: center;
+	flex-wrap: nowrap;
+	flex-flow: column;
+}
+
+/* Large */
+#nav2 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+/* Medium screens */
+@media all and (max-width: 800px) {
+  #nav2 {
+    justify-content: space-around;
+  }
+}
+
+/* Small screens */
+@media all and (max-width: 500px) {
+  #nav2 {
+    flex-direction: column;
+  }
 }
 
 #border-right{
@@ -97,6 +152,21 @@ h1{
 	font-family: Janson, "Times New Roman", serif;
 	font-size: 3em;
 	margin: 15px;
+}
+
+h1 a:link{
+	font-family: Janson, "Times New Roman", serif;
+	color:#FFFFFF;
+	text-decoration:none;
+}
+
+h1 a:visited{
+	color:#FFFFFF;
+}
+
+h1 a:hover, h1 a:active{
+	font-family: Janson, "Times New Roman", serif;
+	text-decoration:none;
 }
 
 h2{
@@ -140,19 +210,32 @@ hr{
 }
 
 img{
-	width: 300px;
+	width: 400px;
 	border-style: none;
 	margin: 15px;
 }
 
-.imghome{
-	width: 100%;
+.container{
+	background-color: #DBD5CD;
+}
+
+.mug{
+	width: 150px;
 	border-style: none;
+	margin: 15px;
+	vertical-align:middle;
+}
+
+.imghome{
+	width: 95%;
+	border-style: none;
+	margin-right: 15px;
+	margin-left: 30px;
 }
 
 .caption{
 	font-size: .75em;
-	font-family: "Proxima Nova", Helvetica, sans-serif;
+	font-family: Janson, "Times New Roman", serif;
 	color: #000000;
 	font-style: italic;
 }
@@ -167,4 +250,23 @@ img{
   font-family: Janson, "Times New Roman", serif;
   font-size: .75em;
 	padding-left: 5px;
+}
+
+a{
+	font-family: "Proxima Nova", Helvetica, sans-serif;
+	font-size: 1em;
+	color:#84754E;
+	text-decoration:underline;
+}
+
+.nav-arrow1{
+	font-family:"Wingdings 3";
+	font-size: 1em;
+	float:right;
+}
+
+.nom-mug{
+	width: 200px;
+	padding: 5px;
+	float:left;
 }
