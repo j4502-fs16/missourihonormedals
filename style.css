@@ -39,8 +39,7 @@
 	list-style: none;
 	text-decoration: none;
 	background-clip: content-box;
-	margin-left: -30px;
-	margin-right: -12px;
+	margin-left: -35px;
 }
 
 .nav a{
@@ -150,16 +149,21 @@ img{
 }
 
 .mug{
+<<<<<<< HEAD
 	width: 110px;
+=======
+	width: 200px;
+>>>>>>> origin/master
 	border-style: none;
 	margin: 15px;
 	vertical-align:middle
 }
 
 .imghome{
-	width: 100%;
+	width: 95%;
 	border-style: none;
-	margin: 15px;
+	margin-right: 15px;
+	margin-left: 30px;
 }
 
 .caption{
