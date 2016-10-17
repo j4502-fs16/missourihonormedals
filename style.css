@@ -62,6 +62,10 @@ a:hover{
 	text-decoration: none;
 }
 
+.nav a:visited{
+	font-family:"Proxima Nova", Helvetica, sans-serif;
+}
+
 .nav li{
 	border-left: 2px solid #F1B82D;
 	border-right: 2px solid #F1B82D;
