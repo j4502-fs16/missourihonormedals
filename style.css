@@ -89,6 +89,12 @@ ul{
 	list-style: none;
 }
 
+h1{
+	font-family: Janson, "Times New Roman", serif;
+	font-size: 3em;
+	margin: 15px;
+}
+
 h2{
 	font-family: Janson, "Times New Roman", serif;
 	font-size: 3em;
