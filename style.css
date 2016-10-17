@@ -145,6 +145,12 @@ img{
 	margin: 15px;
 }
 
+.mug{
+	with: 150px;
+	border-style: none;
+	margin: 15px;
+}
+
 .imghome{
 	width: 100%;
 	border-style: none;
