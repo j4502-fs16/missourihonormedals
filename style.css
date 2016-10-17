@@ -58,20 +58,29 @@
 	width: auto;
 	padding: 0px;
 }
-/* we'll be using flexbox to make the nav responsive here*/
+
+.nav2container{
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: space-around;
+	width: auto;
+}
+
 #nav2 li{
 	font-family: "Proxima Nova", Helvetica, sans-serif;
   font-weight: bold;
   background-color: #DBD5CD;
 	height: auto;
-	float: left;
 	text-align: center;
 	border-top: 2px solid #F1B82D;
 	border-bottom: 2px solid #F1B82D;
 	border-left: 2px solid #F1B82D;
-	display: flex;
-	flex-flow: wrap;
-	justify-content: flex-end;
+	padding: 3px;
+	flex:none;
+	align-self: center;
+	flex-wrap: nowrap;
+	flex-flow: row;
 }
 
 #border-right{
@@ -187,17 +196,17 @@ img{
 	padding-left: 5px;
 }
 
-.nav-arrow1{
-	font-family:"Wingdings 3";
-	font-size: 1em;
-	float:right;
-}
-
 a{
 	font-family: "Proxima Nova", Helvetica, sans-serif;
 	font-size: 1em;
 	color:#84754E;
 	text-decoration:underline;
+}
+
+.nav-arrow1{
+	font-family:"Wingdings 3";
+	font-size: 1em;
+	float:right;
 }
 
 a:visited{
