@@ -55,17 +55,16 @@ a:hover, a:active{
 	background-clip: content-box;
 	margin-left: -35px;
 }
+.nav a:link, .nav a:visited{
+	font-family:"Proxima Nova", Helvetica, sans-serif;
+	text-decoration: none;
+	color:#000000
+}
 
 .nav a:hover, .nav a:active{
 	font-family:"Proxima Nova", Helvetica, sans-serif;
 	color: #F1B82D;
 	text-decoration: none;
-}
-
-.nav a:link, .nav a:visited{
-	font-family:"Proxima Nova", Helvetica, sans-serif;
-	text-decoration: none;
-	color:#000000
 }
 
 .nav li{
