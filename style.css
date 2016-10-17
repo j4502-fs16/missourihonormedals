@@ -17,6 +17,16 @@
 	float:right;
 }
 
+.search_icon{
+	width:60px;
+	float:right;
+}
+
+.menu_icon{
+	width:60px;
+	float:left;
+}
+
 .nav{
   font-family: "Proxima Nova", Helvetica, sans-serif;
   font-weight: bold;
@@ -82,20 +92,20 @@ ul{
 h2{
 	font-family: Janson, "Times New Roman", serif;
 	font-size: 3em;
-	margin: 6px;
+	margin: 15px;
 }
 
 h3{
 	font-family: Janson, "Times New Roman", serif;
 	font-size: 1.5em;
-	margin: 6px;
+	margin: 15px;
 }
 
 h4{
 	font-family: Janson, "Times New Roman", serif;
 	font-weight: bold;
 	font-size: 1em;
-	margin: 6px;
+	margin: 15px;
 }
 
 body{
@@ -107,13 +117,7 @@ p{
   font-size: 1em;
   font-weight: lighter;
   color: #000000;
-	margin: 6px;
-}
-
-img{
-	width: 300px;
-	border-style: none;
-	margin: 6px;
+	margin: 15px;
 }
 
 hr{
@@ -122,25 +126,19 @@ hr{
 	width: auto;
 	background-color: #F1B82D;
 	border: 0;
-	margin: 6px;
+	margin: 15px;
+}
+
+img{
+	width: 300px;
+	border-style: none;
+	margin: 15px;
 }
 
 .imghome{
 	width: 100%;
 	border-style: none;
 }
-
-
-.search_icon{
-	width:60px;
-	float:right;
-}
-
-.menu_icon{
-	width:60px;
-	float:left;
-}
-
 
 .caption{
 	font-size: .75em;
