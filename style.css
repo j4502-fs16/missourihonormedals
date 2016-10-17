@@ -39,6 +39,8 @@
 	list-style: none;
 	text-decoration: none;
 	background-clip: content-box;
+	margin-left: -30px;
+	margin-right: -12px;
 }
 
 .nav a{
