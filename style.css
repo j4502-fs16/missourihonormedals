@@ -42,7 +42,6 @@
 .nav a{
 	color: #000000;
 	text-decoration: none;
-	background-clip: content-box;
 }
 
 .nav li{
