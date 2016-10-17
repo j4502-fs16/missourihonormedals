@@ -156,6 +156,7 @@ img{
 .imghome{
 	width: 100%;
 	border-style: none;
+	margin: 15px;
 }
 
 .caption{
