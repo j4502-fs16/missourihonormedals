@@ -56,7 +56,8 @@ a:hover{
 	margin-left: -35px;
 }
 
-.nav a{
+.nav a:hover{
+	font-family:"Proxima Nova", Helvetica, sans-serif;
 	color: #000000;
 	text-decoration: none;
 }
