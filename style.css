@@ -223,7 +223,8 @@ img{
 	width: 150px;
 	border-style: none;
 	margin: 15px;
-	vertical-align:middle
+	vertical-align:middle;
+	float:left;
 }
 
 .imghome{
