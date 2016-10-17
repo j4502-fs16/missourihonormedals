@@ -150,9 +150,10 @@ img{
 }
 
 .mug{
-	with: 150px;
+	width: 110px;
 	border-style: none;
 	margin: 15px;
+	vertical-align:middle
 }
 
 .imghome{
