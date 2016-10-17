@@ -16,6 +16,7 @@
 
 .search{
 	float:right;
+	display: inline-block;
 }
 
 .nav{
@@ -133,12 +134,12 @@ hr{
 
 
 .search_icon{
-	width:50px;
+	width:80px;
 	float:right;
 }
 
 .menu_icon{
-	width:50px;
+	width:80px;
 	float:left;
 }
 
