@@ -176,3 +176,10 @@ img{
   font-size: .75em;
 	padding-left: 5px;
 }
+
+.read-more{
+	font-family: "Janson", "Times New Roman", serif;
+	font-size: 0.8em;
+	color:#84754E;
+	text-decoration:underline;
+}
