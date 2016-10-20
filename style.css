@@ -53,7 +53,7 @@ a:hover, a:active{
 	list-style: none;
 	text-decoration: none;
 	background-clip: content-box;
-	margin-left: -35px;
+	margin-left: -40px;
 }
 .nav a:link, .nav a:visited{
 	font-family:"Proxima Nova", Helvetica, sans-serif;
@@ -73,11 +73,6 @@ a:hover, a:active{
 	width: auto;
 }
 
-#nav{
-	width: auto;
-	padding: 0px;
-}
-
 .nav2container{
 	flex-wrap: nowrap;
 	justify-content: space-around;
@@ -91,8 +86,8 @@ a:hover, a:active{
   font-weight: bold;
   background-color: #DBD5CD;
 	height: auto;
-	text-align: center;
 	text-decoration: none;
+	text-align: center;
 	border-top: 2px solid #F1B82D;
 	border-bottom: 2px solid #F1B82D;
 	border-left: 2px solid #F1B82D;
@@ -271,3 +266,9 @@ a{
 	padding: 5px;
 	float:left;
 }
+
+@-ms-viewport{
+	width: device-width;
+}
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
