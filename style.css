@@ -87,7 +87,7 @@ a:hover, a:active{
 	width: 100%;
 }
 
-#nav2 li{
+.nav2 li{
 	font-family: "Proxima Nova", Helvetica, sans-serif;
   font-weight: bold;
   background-color: #DBD5CD;
@@ -100,11 +100,12 @@ a:hover, a:active{
 	padding: 3px;
 	align-self: center;
 	flex-wrap: nowrap;
-	flex-flow: column;
+	flex-flow: row;
+	flex-grow: 1;
 }
 
 /* Large */
-#nav2 {
+.nav2 {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
@@ -112,15 +113,15 @@ a:hover, a:active{
 
 /* Medium screens */
 @media all and (max-width: 800px) {
-  #nav2 {
+  .nav2 {
     justify-content: space-around;
   }
 }
 
 /* Small screens */
 @media all and (max-width: 500px) {
-  #nav2 {
-    flex-direction: column;
+  .nav2 {
+    flex-direction: row;
   }
 }
 
