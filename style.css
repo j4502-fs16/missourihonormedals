@@ -58,7 +58,7 @@ a:hover, a:active{
 .nav a:link, .nav a:visited{
 	font-family:"Proxima Nova", Helvetica, sans-serif;
 	text-decoration: none;
-	color:#000000
+	color:#000000;
 }
 
 .nav a:hover, .nav a:active{
@@ -71,7 +71,6 @@ a:hover, a:active{
 	border-left: 2px solid #F1B82D;
 	border-right: 2px solid #F1B82D;
 	width: auto;
-	background-clip: content-box;
 }
 
 #nav{
