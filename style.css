@@ -272,3 +272,15 @@ a{
 }
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+@media all and (min-width:600px){
+	.mug{
+		display: flex;
+		flex-flow: column;
+	}
+	p{
+		display: flex;
+		flex-flow: column;
+	}
+	
+}
