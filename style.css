@@ -33,14 +33,14 @@ a:link, a:visited{
 	font-family: "Proxima Nova", Helvetica, sans-serif;
 	font-size: 1em;
 	color:#000000;
-	text-decoration:none;
+	text-decoration:underline;
 }
 
 a:hover, a:active{
 	font-family: "Proxima Nova", Helvetica, sans-serif;
 	font-size: 1em;
 	color:#F1B82D;
-	text-decoration:none;
+	text-decoration:underline;
 }
 
 .nav{
@@ -162,7 +162,7 @@ h1 a:visited{
 
 h1 a:hover, h1 a:active{
 	font-family: Janson, "Times New Roman", serif;
-	text-decoration:none;
+	text-decoration:underline;
 }
 
 h2{
