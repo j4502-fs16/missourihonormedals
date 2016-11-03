@@ -230,6 +230,11 @@ img{
 	margin: 15px;
 }
 
+.newsimage{
+	width: 300px;
+	border-style: none;
+}
+
 .container{
 	background-color: #DBD5CD;
 }
