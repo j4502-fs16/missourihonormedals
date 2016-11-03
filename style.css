@@ -11,6 +11,21 @@
 	padding-bottom: 20px;
 }
 
+.ac-container input{
+	overflow: hidden;
+	position: relative;
+	z-index: 10;
+	transition:
+	height: 0.3s ease-in-out,
+	box-shadow: 0.6s linear;
+}
+
+.ac-container input:checked ~ article {
+transition:
+height 0.5s ease-in-out,
+box-shadow 0.1s linear;
+}
+
 .search{
 	float:right;
 	margin:5;
@@ -33,14 +48,14 @@ a:link, a:visited{
 	font-family: "Proxima Nova", Helvetica, sans-serif;
 	font-size: 1em;
 	color:#000000;
-	text-decoration:none;
+	text-decoration:underline;
 }
 
 a:hover, a:active{
 	font-family: "Proxima Nova", Helvetica, sans-serif;
 	font-size: 1em;
 	color:#F1B82D;
-	text-decoration:none;
+	text-decoration:underline;
 }
 
 .nav{
@@ -162,7 +177,7 @@ h1 a:visited{
 
 h1 a:hover, h1 a:active{
 	font-family: Janson, "Times New Roman", serif;
-	text-decoration:none;
+	text-decoration:underline;
 }
 
 h2{
@@ -184,9 +199,13 @@ h4{
 	margin: 15px;
 }
 
-body{
-  background-color: #ffffff;
-}
+/*body{
+  background-image: url("homepage.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	opacity:0.2;
+	z-index:-5;
+}*/
 
 p{
   font-family: "Proxima Nova", Helvetica, sans-serif;
@@ -223,10 +242,9 @@ img{
 }
 
 .imghome{
-	width: 95%;
+	display: flex;
+	flex-flow: 1 auto;
 	border-style: none;
-	margin-right: 15px;
-	margin-left: 30px;
 }
 
 .caption{
@@ -245,7 +263,7 @@ img{
 	font-style: italic;
   font-family: Janson, "Times New Roman", serif;
   font-size: .75em;
-	padding-left: 5px;
+	padding-right: 5px;
 }
 
 a{
@@ -287,5 +305,3 @@ a{
 		flex-flow: column;
 	}
 }
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
