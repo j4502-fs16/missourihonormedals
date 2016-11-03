@@ -196,7 +196,11 @@ h4{
 }
 
 body{
-  background-color: #ffffff;
+  background-image: url("homepage.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	opacity:0.2;
+	filter: alpha(opacity=20);
 }
 
 p{
