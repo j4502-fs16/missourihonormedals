@@ -195,13 +195,13 @@ h4{
 	margin: 15px;
 }
 
-body{
+/*body{
   background-image: url("homepage.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	opacity:0.2;
 	z-index:-5;
-}
+}*/
 
 p{
   font-family: "Proxima Nova", Helvetica, sans-serif;
