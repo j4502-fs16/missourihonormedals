@@ -51,33 +51,31 @@ a:hover, a:active{
 
 header{
 	display: flex;
-	flex-flow: row nowrap;
+	flex: 1 auto;
+	flex-flow: row;
 	flex-direction: row-reverse;
 	justify-content: flex-end;
-	width: 100%;
+	width: auto;
 	border-bottom: 4px solid #F1B82D;
 }
 
 .headphoto{
 	order: 1;
-	flex: 1 auto;
-	width: 100%;
 }
 
 .mainnav{
 	order: 2;
-	flex: 3 auto;
+	display: flex;
+	flex-flow: row;
+	flex: 1 auto;
   font-family: "Proxima Nova", Helvetica, sans-serif;
   font-weight: bold;
   color: #000000;
 	height: auto;
 	list-style: none;
-	background-clip: content-box;
-	display: flex;
-	flex-flow: row;
 	margin-top: 30px;
 	margin-bottom: 30px;
-	justify-content: flex-end;
+	justify-content: space-around;
 
 }
 
@@ -173,14 +171,6 @@ li a{
 	background-clip: content-box;
 }
 
-.border-top{
-	border-top: 2px solid #F1B82D;
-}
-
-.border-bottom{
-	border-bottom: 2px solid #F1B82D;
-}
-
 ul{
 	list-style: none;
 	background-clip: content-box;
@@ -227,14 +217,6 @@ h4{
 	margin: 15px;
 }
 
-/*body{
-  background-image: url("homepage.jpg");
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	opacity:0.2;
-	z-index:-5;
-}*/
-
 p{
   font-family: "Proxima Nova", Helvetica, sans-serif;
   font-size: 1.1em;
@@ -246,10 +228,9 @@ p{
 hr{
 	display: block;
 	height: 5px;
-	width: auto;
+	width: 100%;
 	background-color: #F1B82D;
 	border: 0;
-	margin: 15px;
 }
 
 img{
@@ -280,7 +261,6 @@ img{
 	vertical-align:middle;
 }
 
-
 .caption{
 	font-size: .75em;
 	font-family: Janson, "Times New Roman", serif;
@@ -309,12 +289,6 @@ a{
 	text-decoration:underline;
 }
 
-.nav-arrow1{
-	font-family:"Wingdings 3";
-	font-size: 1em;
-	float:right;
-}
-
 .nom-mug{
 	width: 200px;
 	padding: 5px;
@@ -335,9 +309,6 @@ a{
 	}
 	.nav2 {
 		flex-direction: row;
-	}
-	.menu-trigger{
-		display: none;
 	}
 	.twitter-timeline{
 		display: flex;
@@ -362,5 +333,8 @@ a{
 			flex-flow: row;
 			order: 2;
 			flex: 1 100%;
+		}
+		.menu-trigger{
+			display: none;
 		}
 	}
