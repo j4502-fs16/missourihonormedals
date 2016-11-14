@@ -342,9 +342,20 @@ a{
 	.menu-trigger{
 		display: none;
 	}
+	.twitter-widget-0{
+		display: flex;
+		flex-flow: column;
+		order:2;
+		flex: 1 100%;
+	}
 	@media all and (min-width: 800px) {
 	  .nav2 {
 	    justify-content: space-around;
 	  }
+		.twitter-widget-0{
+			display: flex;
+			flex-flow: row;
+			order: 2;
+			flex: 1 100%;
+		}
 	}
-}
