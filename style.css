@@ -330,6 +330,9 @@ a{
   .nav2 {
     flex-direction: row;
   }
+	.menu-trigger{
+		display: none;
+	}
 }
 @media all and (min-width:600px){
 	.mug{
