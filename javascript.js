@@ -1,11 +1,8 @@
-$(document).ready(function)(){
-  $('.menu-trigger').click(function(){
-    $('.nav').slideToggle(500);
-  });
-
-$(window).resize(fuction(){
-    if ( $(window).width() > 700 ){
-      $('.nav').removeAttr('style');
-    }
-});
-});
+function showsub(li){
+ var submenu=li.getElementsByTagName("ul")[0];
+ submenu.style.display="block";
+}
+function hidesub(li){
+ var submenu=li.getElementsByTagName("ul")[0];
+ submenu.style.display="none";
+}</span> 

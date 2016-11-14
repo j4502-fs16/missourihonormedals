@@ -13,69 +13,62 @@
 
 <body>
 
-<div id = "head">
+<header>
 
-  <!-- <div class="menu">
-  <img class="menu_icon" src="Pictures/menu_icon.png" alt="menu icon"/>
-  </div> -->
-
-  <div class ="search">
-  <img class="search_icon" src="Pictures/search_icon.png" alt="search icon"/>
+  <div class="headphoto">
+<img src="Pictures/HonorMedalWordmark.png" alt="head photo"/>
 </div>
 
-<div class = "head">
-  <h1 class='header'>Missouri Honor Medal</h1>
-</div>
-
-
-</div>
-<section class="ac-container">
-  <input id="ac-1" name="accordion-1" type="checkbox">
-
-  <ul class='nav'>
-
-
-    <li class='border-top'><a href="index.html">Home</a></li>
-    <li class='border-bottom border-top'><a href="history">History</a><span class="nav-arrow1">&#112;</span></li>
+<div id="nav">
+    <ul class="mainnav">
+    <li class="parents"><a href="index.html">Home</a></li>
+    <li class="parents" onmouseover="showsub(this)" onmouseout="hidesub(this)"><a href="history">History</a>
       <ul>
-      <li><a href= "jschool.html">Missouri School of Journalism</a></li>
+      <li class="sub"><a href= "jschool.html">Missouri School of Journalism</a></li>
       </ul>
-    <li class='border-bottom border-top'><a href="events.html">Events</a></li>
-    <li class='border-bottom'><a href="recipients.html">Recipients</a><span class="nav-arrow1">&#112;</span></li>
+    <li class="parents"><a href="events.html">Events</a></li>
+    <li class="parents" onmouseover="showsub(this)" onmouseout="hidesub(this)"><a href="#">Recipients</a>
       <ul>
-      <li><a href= "pastrecipients.html">Past Recipients</a></li>
+      <li class="sub"><a href= "recipients.html">2016 Recipients</a></li>
+      <li class="sub"><a href= "pastrecipients.html">Past Recipients</a></li>
       </ul>
-    <li class='border-bottom border-top'><a href="news.html"> News</a><span class="nav-arrow1">&#112;</span></li>
+    <li class="parents" onmouseover="showsub(this)"onmouseout="hidesub(this)"><a href="news.html"> News</a></li>
       <ul>
-      <li><a href="pressreleases.html">Press Releases</a></li>
-      <li class='border-bottom border-top'><a href= "contact.html">Contact</a></li>
+      <li class="sub"><a href="pressreleases.html">Press Releases</a></li>
+      <li class="sub"><a href= "contact.html">Contact</a></li>
       </ul>
   </ul>
 
-</input>
-</section>
+</div>
 
-<br>
-    <img class = "imghome"  src="Pictures/homepage.jpg" alt="A picture of the medal"/>
+</header>
 
-    <p class="caption">The Missouri Honor Medal<p>
+<div id="homemain">
 
+<article class="about-medal">
   <h1>About the Honor Medal</h1>
-<hr>
+
+  <img class = "imghome"  src="Pictures/homepage.jpg" alt="A picture of the medal"/>
+  <p class="caption">The Missouri Honor Medal</p>
+
     <p>The Missouri School of Journalism has awarded its Missouri Honor Medal for Distinguished Service in Journalism since 1930.</p>
 
 
 <p>Medalists are selected by the faculty of the School on the basis of lifetime or superior achievement, for distinguished service performed in such lines of journalistic endeavor as shall be selected each year for consideration.</p>
 
 <p>The annual awards shall not be restricted necessarily to any particular forms of journalistic service, nor will there be, necessarily, any designated number voted annually by the School. The award, or Medal of Honor, in each instance shall consist of a bronze medal, uniform in size, of appropriate design, and suitably inscribed with the recipient’s name. Awards shall be made only to those persons who, upon invitation, are present in person to receive them, or in the case of newspapers, periodicals, radio and television stations or other organizational entities, when such are represented in person by an official representative.</p>
+</article>
+<!--history and recipients here-->
 
 <a class="twitter-timeline"  href="https://twitter.com/hashtag/missourihonormedal" data-partner="tweetdeck"data-widget-id="787824503480987648">#missourihonormedal Tweets</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
-    <p class="footer">Content copyright &copy; 2016 Curators of the University of Missouri. All rights reserved. DMCA and other copyright information.
+
+
+</div>
+
+<p class="footer">Content copyright &copy; 2016 Curators of the University of Missouri. All rights reserved. DMCA and other copyright information.
 An equal opportunity/access/affirmative action/pro-disabled and veteran employer.</p>
-
-
 </body>
 
 </html>

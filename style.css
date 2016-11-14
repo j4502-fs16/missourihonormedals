@@ -1,15 +1,14 @@
-.header{
-	width: 100%;
-	height: auto;
-	background-color: #000000;
-  color: #ffffff;
-	font-family: Janson, "Times New Roman", serif;
-	font-size: 4em;
-	text-align: center;
-	margin:0;
-	padding-top: 20px;
-	padding-bottom: 20px;
+
+body{
+	width: 90%;
 }
+
+h1 {
+
+	text-align: left;
+	font-size: 2em;
+}
+
 
 .ac-container input{
 	overflow: hidden;
@@ -38,11 +37,6 @@ box-shadow 0.1s linear;
 	margin-top: 10px;
 }
 
-.menu_icon{
-	width:100px;
-	float:left;
-	margin-top: 5px;
-}
 
 a:link, a:visited{
 	font-family: "Proxima Nova", Helvetica, sans-serif;
@@ -58,35 +52,89 @@ a:hover, a:active{
 	text-decoration:underline;
 }
 
-.nav{
+header{
+	display: flex;
+	flex-flow: row nowrap;
+	flex-direction: row-reverse;
+	justify-content: flex-end;
+	width: 100%;
+	border-bottom: 4px solid #F1B82D;
+}
+
+.headphoto{
+	order: 1;
+	flex: 1 auto;
+	width: 100%;
+}
+
+.mainnav{
+	order: 2;
+	flex: 3 auto;
   font-family: "Proxima Nova", Helvetica, sans-serif;
   font-weight: bold;
-  background-color: #DBD5CD;;
   color: #000000;
-	width: auto;
 	height: auto;
 	list-style: none;
-	text-decoration: none;
 	background-clip: content-box;
-	margin-left: -40px;
+	display: flex;
+	flex-flow: row;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	justify-content: flex-end;
 }
-.nav a:link, .nav a:visited{
+
+.parents {
+	border-left: 1.5px solid #F1B82D;
+	margin: 30px auto;
+	padding: 0px 10px;
+	text-align: center;
+
+}
+
+.sub {
+	display: none;
+}
+
+.mainnav a:link, .mainnav a:visited{
 	font-family:"Proxima Nova", Helvetica, sans-serif;
 	text-decoration: none;
 	color:#000000;
 }
 
-.nav a:hover, .nav a:active{
+.mainnav a:hover, .mainnav a:active{
 	font-family:"Proxima Nova", Helvetica, sans-serif;
 	color: #F1B82D;
 	text-decoration: none;
 }
 
-.nav li{
-	border-left: 2px solid #F1B82D;
-	border-right: 2px solid #F1B82D;
-	width: auto;
+
+
+#homemain {
+	display: flex;
+	flex-flow: row-reverse;
+	margin-top: 20px;
+
 }
+
+.about-medal, .twitter-widget-0, .footer {
+	flex:1 100%;
+}
+
+.about-medal {
+	display: flex;
+	order:1;
+	flex: 90%;
+	flex-flow: column;
+	border-right: 1.5px solid #F1B82D;
+}
+
+.twitter-widget-0{
+	display: flex;
+	order:2;
+	flex: 10%;
+	flex-flow: row;
+}
+
 
 .nav2container{
 	flex-wrap: nowrap;
@@ -161,7 +209,6 @@ ul{
 
 h1{
 	font-family: Janson, "Times New Roman", serif;
-	font-size: 3em;
 	margin: 15px;
 }
 
@@ -246,17 +293,13 @@ img{
 	vertical-align:middle;
 }
 
-.imghome{
-	display: flex;
-	flex-flow: 1 auto;
-	border-style: none;
-}
 
 .caption{
 	font-size: .75em;
 	font-family: Janson, "Times New Roman", serif;
 	color: #000000;
 	font-style: italic;
+	float: left;
 }
 
 .footer{
@@ -269,6 +312,7 @@ img{
   font-family: Janson, "Times New Roman", serif;
   font-size: .75em;
 	padding-right: 5px;
+
 }
 
 a{
@@ -305,8 +349,5 @@ a{
 		flex-flow: column;
 		flex: 1 auto;
 	}
-	body{
-		display: flex;
-		flex-flow: column;
-	}
+
 }
