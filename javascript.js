@@ -1,13 +1,3 @@
-function showsub(li){
- var submenu=li.getElementsByTagName("ul")[0];
- submenu.style.display="block";
-}
-function hidesub(li){
- var submenu=li.getElementsByTagName("ul")[0];
- submenu.style.display="none";
-}</span>
-
-
 //Loads when the javascript has loaded. when menu-trigger is clicked the function slide toggle occurs. THe 500 is the length of the animation.
 
 $(document).ready(function() {

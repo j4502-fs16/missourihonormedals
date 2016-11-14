@@ -89,7 +89,7 @@ header{
 }
 
 .sub {
-	display: none;
+	display: block;
 }
 
 .mainnav a:link, .mainnav a:visited{
