@@ -1,14 +1,11 @@
-
 body{
 	width: 90%;
 }
 
 h1 {
-
 	text-align: left;
 	font-size: 2em;
 }
-
 
 .ac-container input{
 	overflow: hidden;
