@@ -325,15 +325,6 @@ a{
 }
 
 
-/* Small screens */
-@media all and (min-width: 500px) {
-  .nav2 {
-    flex-direction: row;
-  }
-	.menu-trigger{
-		display: none;
-	}
-}
 @media all and (min-width:600px){
 	.mug{
 		display: flex;
@@ -344,6 +335,12 @@ a{
 		display: flex;
 		flex-flow: column;
 		flex: 1 auto;
+	}
+	.nav2 {
+		flex-direction: row;
+	}
+	.menu-trigger{
+		display: none;
 	}
 	@media all and (min-width: 800px) {
 	  .nav2 {
