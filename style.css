@@ -166,19 +166,6 @@ header{
   justify-content: space-around;
 }
 
-/* Medium screens */
-@media all and (max-width: 800px) {
-  .nav2 {
-    justify-content: space-around;
-  }
-}
-
-/* Small screens */
-@media all and (max-width: 500px) {
-  .nav2 {
-    flex-direction: row;
-  }
-}
 
 #border-right{
 	border-right: 2px solid #F1B82D;
@@ -335,7 +322,14 @@ a{
 	width: device-width;
 }
 
-@media all and (max-width:600px){
+
+/* Small screens */
+@media all and (min-width: 500px) {
+  .nav2 {
+    flex-direction: row;
+  }
+}
+@media all and (min-width:600px){
 	.mug{
 		display: flex;
 		flex-flow: column;
@@ -346,5 +340,9 @@ a{
 		flex-flow: column;
 		flex: 1 auto;
 	}
-
+	@media all and (min-width: 800px) {
+	  .nav2 {
+	    justify-content: space-around;
+	  }
+	}
 }
