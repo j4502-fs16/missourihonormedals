@@ -184,6 +184,8 @@ li a{
 ul{
 	list-style: none;
 	background-clip: content-box;
+	font-family: "Proxima Nova", Helvetica, sans-serif;
+	font-size: 1.1em;
 }
 
 h1{
