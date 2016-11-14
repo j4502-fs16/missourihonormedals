@@ -110,12 +110,12 @@ header{
 
 #homemain {
 	display: flex;
-	flex-flow: row-reverse;
+	flex-flow: row;
 	margin-top: 20px;
 
 }
 
-.about-medal, .twitter-widget-0, .footer {
+.about-medal, .twitter-timeline, .footer {
 	flex:1 100%;
 }
 
@@ -127,11 +127,11 @@ header{
 	border-right: 1.5px solid #F1B82D;
 }
 
-.twitter-widget-0{
+.twitter-timeline{
 	display: flex;
-	order:2;
-	flex: 10%;
 	flex-flow: row;
+	order:2;
+	flex: 1 100%;
 }
 
 
@@ -342,17 +342,22 @@ a{
 	.menu-trigger{
 		display: none;
 	}
-	.twitter-widget-0{
+	.twitter-timeline{
 		display: flex;
 		flex-flow: column;
 		order:2;
 		flex: 1 100%;
 	}
+	#homemain{
+		display: flex;
+		flex-flow: column;
+	}
+}
 	@media all and (min-width: 800px) {
 	  .nav2 {
 	    justify-content: space-around;
 	  }
-		.twitter-widget-0{
+		.twitter-timeline{
 			display: flex;
 			flex-flow: row;
 			order: 2;
