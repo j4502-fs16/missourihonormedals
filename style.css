@@ -78,19 +78,20 @@ header{
 	margin-top: 30px;
 	margin-bottom: 30px;
 	justify-content: flex-end;
-}
-
-.parents {
-	border-left: 1.5px solid #F1B82D;
-	margin: 30px auto;
-	padding: 0px 10px;
-	text-align: center;
 
 }
 
-.sub {
+.sub-1, .sub-2, .sub-3 {
+	display: none;
+	text-align:left;
+}
+
+.parents, .parents-1, .parents-2, .parents-3 {
 	display: block;
+	border-right: 1px solid #F1B82D
 }
+
+
 
 .mainnav a:link, .mainnav a:visited{
 	font-family:"Proxima Nova", Helvetica, sans-serif;
@@ -103,7 +104,6 @@ header{
 	color: #F1B82D;
 	text-decoration: none;
 }
-
 
 
 #homemain {
