@@ -39,7 +39,7 @@ a:link, a:visited{
 	font-family: "Proxima Nova", Helvetica, sans-serif;
 	font-size: 1em;
 	color:#000000;
-	text-decoration:underline;
+	text-decoration:none;
 }
 
 a:hover, a:active{
@@ -47,6 +47,10 @@ a:hover, a:active{
 	font-size: 1em;
 	color:#F1B82D;
 	text-decoration:underline;
+}
+
+.menu-trigger {
+	display: none;
 }
 
 header{
@@ -172,7 +176,6 @@ header{
     justify-content: space-around;
   }
 }
-
 /* Small screens */
 @media all and (max-width: 500px) {
   .nav2 {
@@ -334,6 +337,17 @@ a{
 @ms-viewport{
 	width: device-width;
 }
+
+.menu-trigger {
+	display: flex;
+	order:2;
+}
+
+#nav a {
+	text-decoration: none;
+}
+
+
 
 @media all and (max-width:600px){
 	.mug{
