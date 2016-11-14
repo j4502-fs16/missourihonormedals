@@ -87,7 +87,7 @@ header{
 }
 
 .parents, .parents-1, .parents-2, .parents-3 {
-	display: block;
+	display: flex;
 	border-right: 1px solid #F1B82D
 }
 
