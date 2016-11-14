@@ -88,6 +88,8 @@ header{
 
 .parents, .parents-1, .parents-2, .parents-3 {
 	display: flex;
+	flex-flow: row;
+	justify-content: space-around;
 	border-right: 1px solid #F1B82D
 }
 
