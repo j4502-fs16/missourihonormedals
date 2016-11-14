@@ -171,14 +171,6 @@ li a{
 	background-clip: content-box;
 }
 
-.border-top{
-	border-top: 2px solid #F1B82D;
-}
-
-.border-bottom{
-	border-bottom: 2px solid #F1B82D;
-}
-
 ul{
 	list-style: none;
 	background-clip: content-box;
