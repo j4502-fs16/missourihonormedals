@@ -107,31 +107,24 @@ header{
 	text-decoration: none;
 }
 
-
 #homemain {
 	display: flex;
 	flex-flow: row;
 	margin-top: 20px;
-
-}
-
-.about-medal, .twitter-timeline, .footer {
-	flex:1 100%;
 }
 
 .about-medal {
 	display: flex;
 	order:1;
-	flex: 90%;
+	flex: 1 auto;
 	flex-flow: column;
 	border-right: 1.5px solid #F1B82D;
+	max-width: 60%;
 }
 
 .twitter-timeline{
-	display: flex;
-	flex-flow: row;
 	order:2;
-	flex: 1 100%;
+	flex: 1 auto;
 }
 
 
@@ -263,6 +256,12 @@ img{
 	margin: 15px;
 }
 
+.imghome{
+	display: flex;
+	flex: 1 auto;
+	width: 90%;
+}
+
 .newsimage{
 	width: 300px;
 	border-style: none;
@@ -325,7 +324,7 @@ a{
 }
 
 
-@media all and (min-width:600px){
+@media all and (max-width:600px){
 	.mug{
 		display: flex;
 		flex-flow: column;
@@ -351,6 +350,9 @@ a{
 	#homemain{
 		display: flex;
 		flex-flow: column;
+	}
+	.about-medal{
+		max-width: 90%;
 	}
 }
 	@media all and (min-width: 800px) {
