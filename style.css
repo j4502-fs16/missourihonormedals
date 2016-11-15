@@ -33,10 +33,6 @@ box-shadow 0.1s linear;
 }
 
 
-.headphoto img {
-	width: 70%;
-}
-
 a:link, a:visited{
 	font-family: "Proxima Nova", Helvetica, sans-serif;
 	font-size: 1em;
