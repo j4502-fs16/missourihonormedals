@@ -389,9 +389,10 @@ text-align: center;
 		order:3;
 		flex-flow: column;
 		flex:1 auto;
-		font-size: 1.5em !important;
-		text-decoration: none !important;
-		color: #8C742A !important;
+		font-size: 2em;
+		text-decoration: none;
+		color: #8C742A;
+		width: 2em;
 	}
 
 	.parents, .parents-1, .parents-2, .parents-3, .parents-4 {
