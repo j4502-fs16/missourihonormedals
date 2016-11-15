@@ -315,11 +315,7 @@ a{
 	text-decoration:underline;
 }
 
-.nom-mug{
-	width: 200px;
-	padding: 5px;
-	float:left;
-}
+
 
 .box {
 	background:#DBD5CD;
@@ -336,6 +332,13 @@ a{
 	flex-flow: row;
 }
 
+.nom-mug{
+	width: 200px;
+	padding: 5px;
+	float:left;
+	flex: wrap;
+}
+
 	@media all and (max-width: 800px) {
 	  .nav2 {
 	    justify-content: space-around;
@@ -346,7 +349,12 @@ a{
 			order: 2;
 			flex: 1 100%;
 		}
-
+		.nom-mug{
+			width: 200px;
+			padding: 5px;
+			float:left;
+			flex: wrap;
+		}
 	}
 
 	@media all and (max-width:600px){
@@ -355,15 +363,19 @@ a{
 			flex-flow: column;
 			flex: 1 auto;
 		}
-
-		img {
+		.nom-mug{
 			width: 100%;
+			padding: 5px;
+
 		}
-		p{
+		img {
+			width: 80%;
+		}
+		/*p{
 			display: flex;
 			flex-flow: column;
 			flex: 1 auto;
-		}
+		}*/
 		.nav2 {
 			flex-direction: row;
 		}
