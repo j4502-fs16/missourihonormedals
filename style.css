@@ -328,12 +328,13 @@ a{
 
 }
 
+.bxslider {
+	display:flex;
+	flex-flow: row;
+}
+
 
 @media all and (max-width:600px){
-
- .about-medal {
-	 border-right: none;
- }
 	.mug{
 		display: flex;
 		flex-flow: column;
@@ -407,6 +408,7 @@ text-align: center;
 	}
 	.about-medal{
 		max-width: 90%;
+		border-right: none;
 	}
 }
 	@media all and (min-width: 800px) {
