@@ -33,7 +33,9 @@ box-shadow 0.1s linear;
 }
 
 
-
+.headphoto img {
+	width: 70%;
+}
 
 a:link, a:visited{
 	font-family: "Proxima Nova", Helvetica, sans-serif;
@@ -414,6 +416,11 @@ text-align: center;
 		flex:2 auto;
 		width: 100%;
 	}
+
+.headphoto img{
+	width: 80%;
+}
+
 		#homemain{
 			display: flex;
 			flex-flow: column;
@@ -427,6 +434,9 @@ text-align: center;
 			flex: 1 auto;
 		}
 	}
+
+
+
 
 	.footer {
 
