@@ -1,5 +1,5 @@
-body{
-	width: 90%;
+header body{
+	width:90%;
 }
 
 h1 {
@@ -354,6 +354,12 @@ a{
 		flex: 1 100%;
 	}
 
+.headphoto img {
+	width: 80%;
+}
+
+
+
 #nav {
 		display: flex;
 		order:2;
@@ -373,7 +379,7 @@ a{
 	order:3;
 	flex-flow: column;
 	flex:1 auto;
-	font-size: 2em !important;
+	font-size: 1.5em !important;
 	text-decoration: none !important;
 	color: #8C742A !important;
 }
