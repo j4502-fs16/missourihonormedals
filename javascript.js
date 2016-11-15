@@ -63,3 +63,7 @@ $(document).ready(function() {
 	 }
 	});//end resize
 });//end ready
+
+$(document).ready(function(){
+  $('.bxslider').bxSlider();
+});
