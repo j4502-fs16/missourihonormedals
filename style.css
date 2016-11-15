@@ -1,6 +1,4 @@
-header body{
-	width:90%;
-}
+
 
 h1 {
 	text-align: left;
@@ -35,8 +33,6 @@ box-shadow 0.1s linear;
 }
 
 
-
-
 a:link, a:visited{
 	font-family: "Proxima Nova", Helvetica, sans-serif;
 	font-size: 1em;
@@ -47,7 +43,7 @@ a:link, a:visited{
 a:hover, a:active{
 	font-family: "Proxima Nova", Helvetica, sans-serif;
 	font-size: 1em;
-	color:#F1B82D;
+	color:#84754E;
 	text-decoration:underline;
 }
 
@@ -58,12 +54,17 @@ header{
 	flex-direction: row-reverse;
 	justify-content: flex-end;
 	width: auto;
-	border-bottom: 4px solid #F1B82D;
+	border-bottom: 4px solid #84754E;
 }
 
 .headphoto{
 	order: 1;
 }
+
+.menu-trigger {
+	display: none;
+}
+
 
 .mainnav{
 	order: 2;
@@ -87,7 +88,7 @@ header{
 	text-decoration: none;
 	margin:0px;
 	padding:5px 0px;
-	border-bottom: 1px solid #F1B82D;
+	border-bottom: 1px solid #84754E;
 	list-style-type: none;
 
 }
@@ -101,7 +102,7 @@ header{
 .parents, .parents-1, .parents-2, .parents-3, .parents-4 {
 
 	display: block;
-	border-right: 1px solid #F1B82D;
+	border-right: 1px solid #84754E;
 	width: 100px;
 	text-align: center;
 	list-style-type: none;
@@ -115,7 +116,7 @@ header{
 
 .mainnav a:hover, .mainnav a:active{
 	font-family:"Proxima Nova", Helvetica, sans-serif;
-	color: #F1B82D;
+	color: #84754E;
 	text-decoration: none;
 }
 
@@ -135,7 +136,7 @@ header{
 	order:1;
 	flex: 1 auto;
 	flex-flow: column;
-	border-right: 1.5px solid #F1B82D;
+	border-right: 1.5px solid #84754E;
 	max-width: 60%;
 }
 
@@ -160,10 +161,10 @@ header{
 	height: auto;
 	text-decoration: none;
 	text-align: center;
-	border-top: 2px solid #F1B82D;
-	border-bottom: 2px solid #F1B82D;
-	border-left: 2px solid #F1B82D;
-	border-right: 2px solid #F1B82D;
+	border-top: 2px solid #84754E;
+	border-bottom: 2px solid #84754E;
+	border-left: 2px solid #84754E;
+	border-right: 2px solid #84754E;
 	padding: 3px;
 	align-self: center;
 	flex-wrap: nowrap;
@@ -180,7 +181,7 @@ header{
 
 
 #border-right{
-	border-right: 2px solid #F1B82D;
+	border-right: 2px solid #84754E;
 }
 
 li a{
@@ -246,9 +247,9 @@ p{
 
 hr{
 	display: block;
-	height: 5px;
+	height: 2px;
 	width: 100%;
-	background-color: #F1B82D;
+	background-color: #84754E;
 	border: 0;
 }
 
@@ -322,8 +323,6 @@ a{
 	margin: 10px;
 	float:center;
 	color: white;
-
-
 }
 
 .bxslider {
@@ -331,85 +330,7 @@ a{
 	flex-flow: row;
 }
 
-
-@media all and (max-width:600px){
-	.mug{
-		display: flex;
-		flex-flow: column;
-		flex: 1 auto;
-	}
-	p{
-		display: flex;
-		flex-flow: column;
-		flex: 1 auto;
-	}
-	.nav2 {
-		flex-direction: row;
-	}
-	.twitter-timeline{
-		display: flex;
-		flex-flow: column;
-		order:1;
-		flex: 1 100%;
-	}
-
-.headphoto img {
-	width: 80%;
-}
-
-
-
-#nav {
-		display: flex;
-		order:2;
-	}
-
-.mainnav {
-	flex-flow: column;
-	padding: 20px;
-	margin: 0px;
-	display: none;
-	position: absolute;
-	background: rgba(255, 255, 255, 0.95);
-}
-
-.menu-trigger {
-	display: flex;
-	order:3;
-	flex-flow: column;
-	flex:1 auto;
-	font-size: 1.5em !important;
-	text-decoration: none !important;
-	color: #8C742A !important;
-}
-
-.parents, .parents-1, .parents-2, .parents-3, .parents-4 {
-border-right: none;
-border-bottom: 1px solid #F1B82D;
-padding-top: 10px;
-text-align: center;
-
-}
-
-.sub-1, .sub-2, .sub-3, .sub-4 {
-	font-style: italic;
-}
-
-.headphoto{
-	order: 1;
-	flex:2 auto;
-	width: 100%;
-}
-	#homemain{
-		display: flex;
-		flex-flow: column;
-	}
-	.about-medal{
-		max-width: 90%;
-		border-right: none;
-	}
-}
-	@media all and (min-width: 800px) {
+	@media all and (max-width: 800px) {
 	  .nav2 {
 	    justify-content: space-around;
 	  }
@@ -419,11 +340,101 @@ text-align: center;
 			order: 2;
 			flex: 1 100%;
 		}
-		.menu-trigger{
-			display: none;
+
+	}
+
+	@media all and (max-width:600px){
+		.mug{
+			display: flex;
+			flex-flow: column;
+			flex: 1 auto;
+		}
+		p{
+			display: flex;
+			flex-flow: column;
+			flex: 1 auto;
+		}
+		.nav2 {
+			flex-direction: row;
+		}
+		.twitter-timeline{
+			display: flex;
+			flex-flow: column;
+			order:1;
+			flex: 1 100%;
+		}
+
+.parents, .parents-1, .parents-2, .parents-3, .parents-4 {
+border-right: none;
+border-bottom: 1px solid ;
+padding-top: 10px;
+text-align: center;
+}
+
+	#nav {
+			display: flex;
+			order:2;
+		}
+
+	.mainnav {
+		flex-flow: column;
+		padding: 20px;
+		margin: 0px;
+		display: none;
+		position: absolute;
+		background: rgba(255, 255, 255, 0.95);
+	}
+
+	.menu-trigger {
+		display: flex;
+		order:3;
+		flex-flow: column;
+		flex:1 auto;
+		font-size: 1.5em !important;
+		text-decoration: none !important;
+		color: #8C742A !important;
+	}
+
+	.parents, .parents-1, .parents-2, .parents-3, .parents-4 {
+	border-right: none;
+	border-bottom: 1px solid #F1B82D;
+	padding-top: 10px;
+	text-align: center;
+
+	}
+
+	.sub-1, .sub-2, .sub-3, .sub-4 {
+		font-style: italic;
+	}
+
+	.headphoto{
+		order: 1;
+		flex:2 auto;
+		width: 100%;
+	}
+
+.headphoto img{
+	width: 80%;
+}
+
+		#homemain{
+			display: flex;
+			flex-flow: column;
+		}
+		.about-medal{
+			max-width: 90%;
+			border-right: none;
 		}
 		.mainnav{
 			display: flex;
 			flex: 1 auto;
 		}
+	}
+
+
+
+
+	.footer {
+
+		padding-right: 10px;
 	}
