@@ -411,14 +411,7 @@ text-align: center;
 		border-right: none;
 	}
 }
-
-.footer {
-
-	padding-right: 10px;
-}
-
-
-	@media all and (min-width: 1000px) {
+	@media all and (min-width: 800px) {
 	  .nav2 {
 	    justify-content: space-around;
 	  }
@@ -431,9 +424,4 @@ text-align: center;
 		.menu-trigger{
 			display: none;
 		}
-
-.mainnav {
-	flex-flow: column;
-}
-
 	}
