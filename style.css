@@ -330,10 +330,6 @@ a{
 
 
 @media all and (max-width:600px){
-
- .about-medal {
-	 border-right: none;
- }
 	.mug{
 		display: flex;
 		flex-flow: column;
