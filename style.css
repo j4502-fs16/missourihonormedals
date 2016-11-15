@@ -319,9 +319,9 @@ a{
 
 .box {
 	background:#84754E;
-	width: 100px;
-	padding: 5px;
-	float:left;
+	width: 200px;
+	padding: 10px;
+	float:center;
 	color: white;
 
 
