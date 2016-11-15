@@ -318,7 +318,8 @@ a{
 }
 
 .box {
-	background:#84754E; 
+	background:#84754E;
+	padding: 10px;
 
 }
 
