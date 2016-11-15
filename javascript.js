@@ -63,8 +63,3 @@ $(document).ready(function() {
 	 }
 	});//end resize
 });//end ready
-
-$('.bxslider').bxSlider({
-  mode: 'fade',
-  captions: true
-});
