@@ -20,6 +20,12 @@ height 0.5s ease-in-out,
 box-shadow 0.1s linear;
 }
 
+.newsrooms {
+	border: 2px solid #84754E;
+	background-color: #DBD5CD;
+	padding-left: 20px;
+}
+
 .search{
 	float:right;
 	margin:5;
@@ -233,7 +239,7 @@ h4{
 	font-family: Janson, "Times New Roman", serif;
 	font-weight: bold;
 	font-size: 1em;
-	margin: 15px;
+	margin: 8px;
 }
 
 p{
