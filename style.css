@@ -83,7 +83,7 @@ header{
 }
 
 
-.sub-1, .sub-2, .sub-3 {
+.sub-1, .sub-2, .sub-3, .sub-4 {
 	display: none;
 	text-align:center;
 	text-decoration: none;
@@ -94,13 +94,13 @@ header{
 
 }
 
-.sub-1, .sub-2, .sub-3 a {
+.sub-1, .sub-2, .sub-3, .sub-4 a {
 	font-size: 0.9em;
 	font-weight: normal;
 
 }
 
-.parents, .parents-1, .parents-2, .parents-3 {
+.parents, .parents-1, .parents-2, .parents-3, .parents-4 {
 
 	display: block;
 	border-right: 1px solid #F1B82D;
@@ -378,7 +378,7 @@ a{
 	color: #8C742A !important;
 }
 
-.parents, .parents-1, .parents-2, .parents-3 {
+.parents, .parents-1, .parents-2, .parents-3, .parents-4 {
 border-right: none;
 border-bottom: 1px solid #F1B82D;
 padding-top: 10px;
@@ -386,7 +386,7 @@ text-align: center;
 
 }
 
-.sub-1, .sub-2, .sub-3 {
+.sub-1, .sub-2, .sub-3, .sub-4 {
 	font-style: italic;
 }
 

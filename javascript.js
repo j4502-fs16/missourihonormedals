@@ -5,7 +5,7 @@ $(document).ready(function() {
   });
   $(window).resize(function() {
        if (  $(window).width() > 600 ) {
-        $('.sub1').removeAttr('style');
+        $('.sub-1').removeAttr('style');
      }
     });
 });
@@ -16,7 +16,7 @@ $(document).ready(function() {
   });
   $(window).resize(function() {
        if (  $(window).width() > 600 ) {
-        $('.sub1').removeAttr('style');
+        $('.sub-2').removeAttr('style');
      }
     });
 });
@@ -27,10 +27,24 @@ $(document).ready(function() {
   });
   $(window).resize(function() {
        if (  $(window).width() > 600 ) {
-        $('.sub1').removeAttr('style');
+        $('.sub-3').removeAttr('style');
      }
     });
 });
+
+
+$(document).ready(function() {
+  $('.parents-4').click(function() {
+    $('.sub-4').slideToggle(500);
+  });
+  $(window).resize(function() {
+       if (  $(window).width() > 600 ) {
+        $('.sub-4').removeAttr('style');
+     }
+    });
+});
+
+
 
 //hamburger menu
 
