@@ -325,8 +325,6 @@ a{
 	margin: 10px;
 	float:center;
 	color: white;
-
-
 }
 
 .bxslider {
@@ -334,10 +332,7 @@ a{
 	flex-flow: row;
 }
 
-
-
-
-	@media all and (max-width: 999px) {
+	@media all and (max-width: 800px) {
 	  .nav2 {
 	    justify-content: space-around;
 	  }
@@ -347,15 +342,6 @@ a{
 			order: 2;
 			flex: 1 100%;
 		}
-		.menu-trigger{
-			display: none;
-		}
-
-.mainnav {
-	padding-left: 10px;
-	padding-top: 50px;
-	width:80%;
-}
 
 	}
 
@@ -380,19 +366,12 @@ a{
 			flex: 1 100%;
 		}
 
-	.headphoto img {
-		width: 80%;
-	}
-
-<<<<<<< HEAD
-=======
 .parents, .parents-1, .parents-2, .parents-3, .parents-4 {
 border-right: none;
 border-bottom: 1px solid ;
 padding-top: 10px;
 text-align: center;
->>>>>>> origin/master
-
+}
 
 	#nav {
 			display: flex;
