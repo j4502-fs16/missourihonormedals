@@ -78,8 +78,6 @@ header{
 	margin-top: 50px;
 	margin-bottom: 30px;
 	justify-content: space-around;
-
-
 }
 
 
@@ -423,5 +421,9 @@ text-align: center;
 		}
 		.menu-trigger{
 			display: none;
+		}
+		.mainnav{
+			display: flex;
+			flex: 1 auto;
 		}
 	}
