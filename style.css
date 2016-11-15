@@ -401,6 +401,7 @@ text-align: center;
 	}
 	.about-medal{
 		max-width: 90%;
+		border-right: none;
 	}
 }
 	@media all and (min-width: 800px) {
