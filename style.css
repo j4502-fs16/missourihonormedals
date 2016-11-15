@@ -355,6 +355,10 @@ a{
 			flex-flow: column;
 			flex: 1 auto;
 		}
+
+		img {
+			width: 90%;
+		}
 		p{
 			display: flex;
 			flex-flow: column;
