@@ -329,6 +329,7 @@ a{
 }
 
 .bxslider {
+	display:flex;
 	flex-flow: row;
 }
 
