@@ -456,6 +456,17 @@ a{
 			flex-direction:column;
 			text-align: center;
 		}
+		h3 {
+				font-family: Janson, "Times New Roman", serif;
+				font-size: 1.5em;
+				padding-left: 30px;
+				text-decoration:none;
+
+		}
+		h1 {
+			font-family: Janson, "Times New Roman", serif;
+			font-size: 1.8em;
+		}
 
 		.mug{
 			display: flex;
