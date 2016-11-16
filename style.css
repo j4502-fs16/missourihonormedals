@@ -1,4 +1,6 @@
-
+body {
+	margin: auto 30px;
+}
 
 h1 {
 	text-align: left;
@@ -61,6 +63,7 @@ header{
 	justify-content: flex-end;
 	width: auto;
 	border-bottom: 4px solid #84754E;
+	padding-bottom: 10px;
 }
 
 .headphoto{
@@ -203,8 +206,25 @@ header{
 .news{
 	display: flex;
 	flex:1 50%;
-	order:2
+	order:2;
 }
+
+.news-title{
+	font-weight: normal;
+	color: #84754E;
+
+}
+
+.news {
+	font-size: 1em;
+}
+
+.read-more  {
+	font-style: italic;
+	font-size: 1em;
+	margin: 15px;
+}
+
 
 /* Large */
 .nav2 {
@@ -286,6 +306,7 @@ hr{
 	border: 0;
 }
 
+.division {display: none;}
 
 img{
 	width: 400px;
@@ -465,6 +486,7 @@ a{
 		order: 1;
 		flex:2 auto;
 		width: 100%;
+		padding-left: 0px;
 	}
 
 .headphoto img{
@@ -481,7 +503,23 @@ a{
 			border-right: none;
 		}
 
+		.news-article {
+			display: block;
+			text-align: left;
 		}
+
+.division {
+	display: block;
+	text-align: center;
+	text-decoration: none !important;
+	font-size: 20px !important;
+	color: #84754E !important;
+}
+
+.newsimage {
+	padding-left: 0px;
+}
+
 	}
 
 
