@@ -574,19 +574,21 @@ a{
 			text-align: left;
 		}
 
-.division {
+/*.division {
 	display: block;
 	text-align: center;
 	text-decoration: none !important;
 	font-size: 20px !important;
 	color: #84754E !important;
-}
+}*/
 
 .imagecaption {
 	text-align: center;
 }
 
-
+.newsimage {
+	text-align:center;
+}
 .news-1, .news-2, .news-3, .news-4, .news-5, .news-6 {
 	display:flex;
 	flex-flow: column;
