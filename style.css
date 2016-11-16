@@ -204,7 +204,6 @@ header{
 }
 
 .caption{
-	order:2;
 	flex:1 auto;
 }
 
@@ -310,7 +309,7 @@ h4{
 	font-family: Janson, "Times New Roman", serif;
 	font-weight: bold;
 	font-size: 1em;
-	margin: 8px;
+	margin: 0px;
 }
 
 p{
@@ -341,6 +340,8 @@ img{
 	display: flex;
 	flex: 1 auto;
 	width: 90%;
+	order:0;
+
 }
 
 .newsimage{
@@ -364,7 +365,7 @@ img{
 	font-family: Janson, "Times New Roman", serif;
 	color: #000000;
 	font-style: italic;
-	float: left;
+	float: right;
 }
 
 .footer{
