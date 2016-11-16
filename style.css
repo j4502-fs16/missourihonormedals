@@ -594,7 +594,11 @@ a{
 	flex-flow: column;
 }
 
-	}
+.twitter-timeline{
+	height:200px;
+}
+
+}
 
 
 
