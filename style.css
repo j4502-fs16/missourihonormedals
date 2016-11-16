@@ -583,9 +583,10 @@ a{
 	color: #84754E !important;
 }
 
-.newsimage {
-	padding-left: 0px;
+.imagecaption {
+	text-align: center;
 }
+
 
 .news-1, .news-2, .news-3, .news-4, .news-5, .news-6 {
 	display:flex;
