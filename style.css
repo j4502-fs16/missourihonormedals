@@ -388,6 +388,8 @@ a{
 	flex: wrap;
 }
 
+
+
 	@media all and (max-width: 800px) {
 	  .nav2 {
 	    justify-content: space-around;
@@ -420,6 +422,16 @@ a{
 		}
 		img {
 			width: 100%;
+		}
+
+		#menu {
+			font-size: 0.8em;
+			padding-bottom: -3px;
+			color:#84754E;
+			font-weight: bold;
+			font-family: "Proxima Nova", Helvetica, sans-serif;
+
+
 		}
 		/*p{
 			display: flex;
