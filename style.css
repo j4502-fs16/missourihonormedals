@@ -55,7 +55,7 @@ a:hover, a:active{
 	text-decoration:underline;
 }
 
-header{
+/*header{
 	display: flex;
 	flex: 1 auto;
 	flex-flow: row;
@@ -63,7 +63,7 @@ header{
 	justify-content: flex-end;
 	width: auto;
 	padding-bottom: 2px;
-}
+}*/
 
 .headphoto{
 	order: 1;
@@ -463,7 +463,6 @@ a{
 	@media all and (max-width:600px){
 
 		.headbox{
-			flex-direction:column;
 			text-align: center;
 		}
 		h3 {
