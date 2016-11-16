@@ -196,6 +196,7 @@ header{
 .newsimage {
 	order:1;
 	flex:1 auto;
+	width: 100%;
 }
 
 .imagecaption{
@@ -204,8 +205,8 @@ header{
 }
 
 .caption{
-	order:2;
 	flex:1 auto;
+	order:2;
 }
 
 /*.caption{
@@ -310,7 +311,7 @@ h4{
 	font-family: Janson, "Times New Roman", serif;
 	font-weight: bold;
 	font-size: 1em;
-	margin: 8px;
+	margin: 0px;
 }
 
 p{
@@ -341,6 +342,8 @@ img{
 	display: flex;
 	flex: 1 auto;
 	width: 90%;
+	order:0;
+
 }
 
 .newsimage{
@@ -364,7 +367,7 @@ img{
 	font-family: Janson, "Times New Roman", serif;
 	color: #000000;
 	font-style: italic;
-	float: left;
+	float: right;
 }
 
 .footer{
@@ -422,11 +425,19 @@ a{
 			flex-flow:column;
 		}
 		.mainnav{
-			padding:none;
+			padding:0px;
 			flex-flow:row;
 			justify-content:space-between;
 			flex:1 auto;
+			margin-top:0px;
+
 		}
+		.headphoto {
+			text-align: center;
+		}
+
+
+
 }
 
 	@media all and (max-width: 800px) {
@@ -453,6 +464,18 @@ a{
 
 		.headbox{
 			flex-direction:column;
+			text-align: center;
+		}
+		h3 {
+				font-family: Janson, "Times New Roman", serif;
+				font-size: 1.5em;
+				padding-left: 30px;
+				text-decoration:none;
+
+		}
+		h1 {
+			font-family: Janson, "Times New Roman", serif;
+			font-size: 1.8em;
 		}
 
 		.mug{
@@ -560,9 +583,10 @@ a{
 	color: #84754E !important;
 }
 
-.newsimage {
-	padding-left: 0px;
+.imagecaption {
+	text-align: center;
 }
+
 
 .news-1, .news-2, .news-3, .news-4, .news-5, .news-6 {
 	display:flex;
