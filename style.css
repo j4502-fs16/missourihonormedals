@@ -110,7 +110,7 @@ header{
 .parents, .parents-1, .parents-2, .parents-3, .parents-4 {
 
 	display: block;
-	border-right: 1px solid #84754E;
+	/*border-right: 1px solid #84754E;*/
 	width: 100px;
 	text-align: center;
 	list-style-type: none;
@@ -410,8 +410,26 @@ a{
 	flex: wrap;
 }
 
+.headbox{
+	display:flex;
+	flex-flow:row;
+	justify-content:space-around;
+}
+
+@media all and (max-width:950px){
+		.headbox{
+			flex-flow:column;
+		}
+		.mainnav{
+			padding:none;
+			flex-flow:row;
+			justify-content:space-between;
+			flex:1 auto;
+		}
+}
+
 	@media all and (max-width: 800px) {
-	  .nav2 {
+		.nav2 {
 	    justify-content: space-around;
 	  }
 		.twitter-timeline{
@@ -426,9 +444,15 @@ a{
 			float:left;
 			flex: wrap;
 		}
+
 	}
 
+
 	@media all and (max-width:600px){
+
+		.headbox{
+			flex-direction:column;
+		}
 
 		.mug{
 			display: flex;
@@ -468,13 +492,11 @@ a{
 	#nav {
 			display: flex;
 			order:2;
-
 		}
 
 		.mainnav {
 	   	flex-flow: column;
 	  	padding: 20px;
-
 	   	margin: 0px;
 	   	display: none;
 	  	position: absolute;
@@ -494,7 +516,7 @@ a{
 
 	.parents, .parents-1, .parents-2, .parents-3, .parents-4 {
 	border-right: none;
-	border-bottom: 1px solid #F1B82D;
+	border-bottom: 1px solid #84754E;
 	padding-top: 10px;
 	text-align: center;
 
