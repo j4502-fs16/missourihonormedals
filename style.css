@@ -454,6 +454,7 @@ a{
 
 		.headbox{
 			flex-direction:column;
+			text-align: center;
 		}
 
 		.mug{
