@@ -196,6 +196,7 @@ header{
 .newsimage {
 	order:1;
 	flex:1 auto;
+	width: 100%;
 }
 
 .imagecaption{
@@ -205,6 +206,7 @@ header{
 
 .caption{
 	flex:1 auto;
+	order:2;
 }
 
 /*.caption{
@@ -423,11 +425,19 @@ a{
 			flex-flow:column;
 		}
 		.mainnav{
-			padding:none;
+			padding:0px;
 			flex-flow:row;
 			justify-content:space-between;
 			flex:1 auto;
+			margin-top:0px;
+
 		}
+		.headphoto {
+			text-align: center;
+		}
+
+
+
 }
 
 	@media all and (max-width: 800px) {
