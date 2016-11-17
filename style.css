@@ -204,8 +204,16 @@ a:hover, a:active{
 	flex-flow:column;
 }
 
-.caption{
+.caption-n{
 	flex:1 auto;
+	order: 2;
+	font-size: .75em;
+	font-family: Janson, "Times New Roman", serif;
+	color: #000000;
+	font-style: italic;
+	float: right;
+
+
 }
 
 /*.caption{
