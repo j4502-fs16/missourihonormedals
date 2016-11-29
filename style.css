@@ -304,12 +304,12 @@ h1 a:hover, h1 a:active{
 h2{
 	font-family: Janson, "Times New Roman", serif;
 	font-size: 3em;
-	margin: 15px;
+	margin: 15px auto;
 }
 
 h3{
 	font-family: Janson, "Times New Roman", serif;
-	font-size: 1.8em;
+	font-size: 1.5em;
 	padding-left: 30px;
 	text-decoration:none;
 }
@@ -335,6 +335,21 @@ hr{
 	width: 100%;
 	background-color: #84754E;
 	border: 0;
+}
+
+.bounding{
+	max-width:750px;
+	margin:0 auto;
+}
+
+.top-box{
+	max-width:850px;
+	margin:0 auto;
+	text-align:justify;
+}
+
+.top-box h2{
+	text-align:center;
 }
 
 .division {display: none;}
