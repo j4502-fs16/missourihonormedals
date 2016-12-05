@@ -130,7 +130,7 @@ a:hover, a:active{
 
 #homemain {
 	display: flex;
-	flex-flow: row;
+	flex-flow: row-reverse;
 	margin-top: 20px;
 }
 
@@ -141,7 +141,7 @@ a:hover, a:active{
 
 .about-medal {
 	display: flex;
-	order:1;
+	order:2;
 	flex: 1 auto;
 	flex-flow: column;
 	border-right: 1.5px solid #84754E;
@@ -149,7 +149,7 @@ a:hover, a:active{
 }
 
 .twitter-timeline{
-	order:2;
+	order:1;
 	flex: 1 auto;
 }
 
