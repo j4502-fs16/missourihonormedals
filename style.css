@@ -196,7 +196,6 @@ a:hover, a:active{
 .newsimage {
 	order:1;
 	flex:1 auto;
-	width: 100%;
 }
 
 .imagecaption{
@@ -221,8 +220,9 @@ a:hover, a:active{
 }*/
 
 .newsimage img {
+	display: block;
 	width: 20%;
-	height:10%;
+	height: auto;
 }
 
 /*.news{
@@ -610,6 +610,8 @@ a{
 
 .newsimage {
 	text-align:center;
+	display: flex;
+	height: auto;
 }
 .news-1, .news-2, .news-3, .news-4, .news-5, .news-6 {
 	display:flex;
