@@ -412,7 +412,21 @@ a{
 	text-decoration:underline;
 }
 
+.contact-mug{
+	display: flex;
+	flex: 1 auto;
+	flex-flow: row;
+	order: 1;
+	width: 150px;
+}
 
+.contact{
+	display: flex;
+	flex: 2 auto;
+	flex-flow: column;
+	order: 2;
+	justify-content: flex-end;
+}
 
 .box {
 	background:#DBD5CD;
