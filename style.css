@@ -428,6 +428,15 @@ a{
 	justify-content: flex-end;
 }
 
+.contact-box{
+	display:flex;
+	flex-flow:row;
+}
+
+.contact-info{
+	display:block;
+}
+
 .box {
 	background:#DBD5CD;
 	width: 300px;
