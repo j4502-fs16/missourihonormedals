@@ -63,3 +63,8 @@ $(document).ready(function() {
 	 }
 	});//end resize
 });//end ready
+
+$(document).ready(function() {
+  $('.site').click(function() {
+    $('nav ul').slideToggle(500);
+  });
