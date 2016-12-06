@@ -369,6 +369,10 @@ img{
 	margin-top: 68px;
 }
 
+.home-recipients {
+	padding-top: 15px;
+}
+
 .side-pic {
 	width: 60%;
 }
@@ -378,16 +382,19 @@ img{
 	margin: 3px;
 	color: #84754E;
 	font-size: 1.5em;
+	font-family: Janson, "Times New Roman", serif;
+	font-size: 1.5em;
 }
 
-
+.side-p a:link a:visited {
+	text-decoration: none;
+}
 
 .imghome{
 	display: flex;
 	flex: 1 auto;
-	width: 90%;
+	width: 80%;
 	order:0;
-
 }
 
 .container{
@@ -699,6 +706,12 @@ a{
 
 .twitter-timeline{
 	height:200px;
+}
+
+#sidebar {
+  order:2;
+	margin-top: 10px;
+	display: flex;
 }
 
 }
