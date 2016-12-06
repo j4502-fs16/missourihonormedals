@@ -442,6 +442,7 @@ a{
 	flex-flow: row;
 	order: 1;
 	width: 150px;
+	margin-top:0;
 }
 
 .contact{
@@ -450,11 +451,13 @@ a{
 	flex-flow: column;
 	order: 2;
 	justify-content: flex-end;
+	text-align: center;
 }
 
 .contact-box{
 	display:flex;
 	flex-flow:row;
+	margin:0 auto;
 }
 
 .contact-info{
@@ -696,7 +699,7 @@ a{
 }*/
 
 .imagecaption {
-	text-align: center;
+	text-align: left;
 }
 
 .news-1, .news-2, .news-3, .news-4, .news-5, .news-6 {
@@ -707,13 +710,35 @@ a{
 .twitter-timeline{
 	height:200px;
 }
+.contact{
+	display: flex;
+	flex: 2 auto;
+	flex-flow: column;
+	order: 2;
+	justify-content: flex-end;
+}
 
+.contact-box{
+	display:flex;
+	flex-flow:column;
+	margin:0 auto;
+}
+.contact-mug {
+	margin: 0 auto;
+}
+
+<<<<<<< HEAD
 #sidebar {
   order:2;
 	margin-top: 10px;
 	display: flex;
 }
 
+=======
+.slideshow-container {
+	margin: 0 auto;
+}
+>>>>>>> origin/master
 }
 
 
