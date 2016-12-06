@@ -703,7 +703,22 @@ a{
 .twitter-timeline{
 	height:200px;
 }
+.contact{
+	display: flex;
+	flex: 2 auto;
+	flex-flow: column;
+	order: 2;
+	justify-content: flex-end;
+}
 
+.contact-box{
+	display:flex;
+	flex-flow:column;
+	margin:0 auto;
+}
+.contact-mug {
+	margin: 0 auto;
+}
 }
 
 
