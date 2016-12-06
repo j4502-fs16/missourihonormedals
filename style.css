@@ -128,7 +128,7 @@ a:hover, a:active{
 	text-decoration: none;
 }
 
-#homemain {
+.homemain {
 	display: flex;
 	flex-flow: row-reverse;
 	margin-top: 20px;
@@ -391,9 +391,11 @@ img{
 }
 
 .imghome{
-	display: flex;
-	flex: 1 auto;
+	/*display: flex;
+	flex: 1 auto;*/
+	display:block;
 	width: 80%;
+  height:auto;
 	order:0;
 }
 
@@ -677,7 +679,7 @@ a{
 	margin: 0px;
 }
 
-		#homemain{
+		.homemain{
 			display: flex;
 			flex-flow: column;
 		}
