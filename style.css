@@ -360,6 +360,21 @@ img{
 	margin: 15px;
 }
 
+#sidebar {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin-top: 68px;
+}
+
+.side-pic {
+	width: 60%;
+}
+
+.side-p {
+	text-align: center;
+}
+
 .imghome{
 	display: flex;
 	flex: 1 auto;
