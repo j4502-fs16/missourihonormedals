@@ -376,7 +376,11 @@ img{
 .side-p {
 	text-align: center;
 	margin: 3px;
+	color: #84754E;
+	font-size: 1.5em;
 }
+
+
 
 .imghome{
 	display: flex;
@@ -503,6 +507,7 @@ a{
 .next:hover{
 	font-size:2em;
 }
+
 
 @media all and (max-width:950px){
 		.headbox{
