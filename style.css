@@ -482,7 +482,13 @@ a{
 .slideshow-container {
 	height: 60%;
 	width: 60%;
+	text-align: center;
+	margin: 0px center;
 
+}
+
+.box {
+	text-align: center;
 }
 
 
@@ -504,6 +510,7 @@ a{
 		.slideshow-container {
 			height: 60%;
 			width: 60%;
+			text-align: center;
 
 		}
 
