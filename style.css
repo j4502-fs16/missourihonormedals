@@ -483,14 +483,20 @@ a{
 	height: 60%;
 	width: 60%;
 	text-align: center;
-	margin: 0px center;
+	margin: 0px auto;
 
 }
 
 .box {
 	text-align: center;
+	margin: 0px auto;
 }
-
+.prev {
+	font-size: 2em;
+}
+.next{
+	font-size: 2em;
+}
 
 @media all and (max-width:950px){
 		.headbox{
