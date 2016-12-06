@@ -348,7 +348,7 @@ hr{
 	text-align:justify;
 }
 
-.top-box h2{
+h2{
 	text-align:center;
 }
 
@@ -479,6 +479,12 @@ a{
 	flex-flow:row;
 	justify-content:space-around;
 }
+.slideshow-container {
+	height: 60%;
+	width: 60%;
+
+}
+
 
 @media all and (max-width:950px){
 		.headbox{
@@ -494,6 +500,11 @@ a{
 		}
 		.headphoto {
 			text-align: center;
+		}
+		.slideshow-container {
+			height: 60%;
+			width: 60%;
+
 		}
 
 
@@ -519,7 +530,11 @@ a{
 	.top-box {
 		text-align: left;
 	}
+	.slideshow-container {
+		height: 100%;
+		width: 100%;
 
+	}
 	}
 
 
@@ -574,7 +589,11 @@ a{
 		 padding-top: 10px;
 		 text-align: center;
 	 }
+	 .slideshow-container {
+	 	height: 100%;
+	 	width: 100%;
 
+	 }
 	#nav {
 			display: flex;
 			order:2;
