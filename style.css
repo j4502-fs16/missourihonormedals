@@ -195,7 +195,15 @@ a:hover, a:active{
 
 .newsimage {
 	order:1;
+	display: flex;
 	flex:1 auto;
+	border-style: none;
+	width: 300px;
+}
+
+.newsimage1{
+	display: block;
+	width: 300px;
 }
 
 .imagecaption{
@@ -218,12 +226,6 @@ a:hover, a:active{
 /*.caption{
 	order:2;
 }*/
-
-.newsimage img {
-	display: block;
-	width: 20%;
-	height: auto;
-}
 
 /*.news{
 	display: flex;
@@ -382,11 +384,6 @@ img{
 	width: 90%;
 	order:0;
 
-}
-
-.newsimage{
-	width: 300px;
-	border-style: none;
 }
 
 .container{
@@ -690,11 +687,6 @@ a{
 	text-align: center;
 }
 
-.newsimage {
-	text-align:center;
-	display: flex;
-	height: auto;
-}
 .news-1, .news-2, .news-3, .news-4, .news-5, .news-6 {
 	display:flex;
 	flex-flow: column;
