@@ -501,6 +501,9 @@ a{
 			float:left;
 			flex: wrap;
 		}
+	.top-box {
+		text-align: left;
+	}
 
 	}
 
