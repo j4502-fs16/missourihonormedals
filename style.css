@@ -530,12 +530,13 @@ a{
 			flex-flow:column;
 		}
 		.mainnav{
-			padding:0px;
-			flex-flow:row;
-			justify-content:space-between;
+			padding: 0px;
+			display: flex;
+			width: auto;
+			flex-flow:row nowrap;
+			justify-content:space-around;
 			flex:1 auto;
 			margin-top:0px;
-
 		}
 		.headphoto {
 			text-align: center;
@@ -544,11 +545,7 @@ a{
 			height: 60%;
 			width: 60%;
 			text-align: center;
-
 		}
-
-
-
 }
 
 	@media all and (max-width: 800px) {
@@ -573,7 +570,6 @@ a{
 	.slideshow-container {
 		height: 100%;
 		width: 100%;
-
 	}
 	}
 
@@ -659,7 +655,7 @@ a{
 		width: 2em;
 	}
 
-	.parents, .parents-1, .parents-2, .parents-3, .parents-4 {
+	.parents, .parents-1, .parents-2, .parents-3, .parents-4, .parents-5 {
 	border-right: none;
 	border-bottom: 1px solid #84754E;
 	padding-top: 10px;
