@@ -428,6 +428,7 @@ img{
   font-family: Janson, "Times New Roman", serif;
   font-size: .75em;
 	padding-right: 5px;
+	padding-left: 5px;
 
 }
 
@@ -729,16 +730,18 @@ a{
 	margin: 0 auto;
 }
 
-
 #sidebar {
   order:2;
 	margin-top: 10px;
 	display: flex;
 }
 
-
-
 	.footer {
 		flex: 1 100%;
 		padding-right: 10px;
 	}
+
+.slideshow-container {
+	margin: 0 auto;
+}
+}
