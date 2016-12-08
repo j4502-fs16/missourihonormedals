@@ -524,7 +524,6 @@ a{
 	font-size:2em;
 }
 
-
 @media all and (max-width:950px){
 		.headbox{
 			flex-flow:column;
@@ -532,7 +531,7 @@ a{
 		.mainnav{
 			padding: 0px;
 			display: flex;
-			width: auto;
+			width: 100%;
 			flex-flow:row nowrap;
 			justify-content:space-around;
 			flex:1 auto;
