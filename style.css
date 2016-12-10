@@ -517,7 +517,6 @@ a{
 	font-size:2em;
 }
 
-<<<<<<< HEAD
 /*CARD STUFF FOR PAST RECIPIENTS*/
 .card{
 	border:1px solid #84754E;
@@ -542,8 +541,7 @@ a{
 	position:relative;
 }
 
-=======
->>>>>>> origin/master
+
 @media all and (max-width:950px){
 		.headbox{
 			flex-flow:column;
@@ -565,14 +563,7 @@ a{
 			width: 60%;
 			text-align: center;
 		}
-<<<<<<< HEAD
 
-
-
-
-
-=======
->>>>>>> origin/master
 }
 
 	@media all and (max-width: 800px) {
