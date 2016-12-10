@@ -504,6 +504,7 @@ a{
 }
 .prev {
 	font-size: 2em;
+	text-decoration: none;
 
 }
 .prev:hover{
@@ -511,6 +512,7 @@ a{
 }
 .next {
 	font-size: 2em;
+	text-decoration: none;
 }
 
 .next:hover{
