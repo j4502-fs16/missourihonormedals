@@ -142,11 +142,17 @@ a:hover, a:active{
 .about-medal {
 	display: flex;
 	order:2;
-	flex: 1 auto;
 	flex-flow: column;
-	border-right: 1.5px solid #84754E;
-	max-width: 60%;
+	max-width: 95%;
 }
+
+.side-top {
+	width:75%;
+	order:1;
+	margin:0px;
+}
+
+
 
 .twitter-timeline{
 	order:1;
@@ -366,7 +372,10 @@ img{
 	display: flex;
 	flex-direction: column;
 	text-align: center;
-	margin-top: 68px;
+
+	width:25%;
+	/*flex: 1 auto;*/
+		border-left: 1.5px solid #84754E;
 }
 
 .home-recipients {
@@ -374,7 +383,7 @@ img{
 }
 
 .side-pic {
-	width: 65%;
+	width: 100%;
 }
 
 
@@ -748,7 +757,7 @@ flex-flow: row;
 			flex-flow: column;
 		}
 		.about-medal{
-			max-width: 90%;
+			max-width: 100%;
 			border-right: none;
 		}
 
