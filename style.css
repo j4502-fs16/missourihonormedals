@@ -162,31 +162,55 @@ a:hover, a:active{
 	flex: 1 auto;
 }
 
+ #year{
+	 display:block;
+	 background:#DBD5CD;
+	 border:#84754E 2px solid;
+	 width:110px;
+	 padding:10px;
+	 font-weight:bold;
+	 margin:auto;
+ }
 
-.nav2container{
-	flex-wrap: nowrap;
-	justify-content: space-around;
-	align-items: center;
-	align-content: space-around;
-	width: 100%;
+ #year a:link, a:visited{
+	 align-content:center;
+	 text-decoration:none;
+ }
+
+ #year a:active, a:hover{
+	 color:#84754E;
+ }
+
+.nav2{
+	display:none;
+	width:75px;
+	margin:auto;
 }
 
+
+
 .nav2 li{
+	display:block;
 	font-family: "Proxima Nova", Helvetica, sans-serif;
   font-weight: bold;
   background-color: #DBD5CD;
 	height: auto;
 	text-decoration: none;
 	text-align: center;
-	border-top: 2px solid #84754E;
+	border-bottom:1px solid #84754E;
+	/*border-top: 2px solid #84754E;
 	border-bottom: 2px solid #84754E;
 	border-left: 2px solid #84754E;
-	border-right: 2px solid #84754E;
+	border-right: 2px solid #84754E;*/
 	padding: 3px;
-	align-self: center;
+	/*align-self: center;
 	flex-wrap: nowrap;
 	flex-flow: row;
-	flex-grow: 1;
+	flex-grow: 1;*/
+}
+
+.nav2 a:link, a:visited{
+	text-decoration:none;
 }
 
 
@@ -268,11 +292,11 @@ a:hover, a:active{
 
 
 /* Large */
-.nav2 {
+/*.nav2 {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column;
   justify-content: space-around;
-}
+}*/
 
 
 #border-right{
@@ -598,9 +622,9 @@ flex-flow: row;
 }
 
 	@media all and (max-width: 800px) {
-		.nav2 {
+		/*.nav2 {
 	    justify-content: space-around;
-	  }
+	  }*/
 		.twitter-timeline{
 			display: flex;
 			flex-flow: row;
@@ -620,10 +644,33 @@ flex-flow: row;
 		height: 100%;
 		width: 100%;
 	}
+
+	.card{
+		width: 45%;
+	}
+	.mug{
+		margin:12px;
+	}
+
+	.card-container{
+		justify-content:space-between;
+	}
 	}
 
 
 	@media all and (max-width:600px){
+
+		.card{
+			width:90%;
+		}
+
+		.mug{
+			margin:15px;
+		}
+
+		.card-container{
+			flex-flow:column;
+		}
 
 		.headbox{
 			text-align: center;
@@ -658,9 +705,9 @@ flex-flow: row;
 			flex-flow: column;
 			flex: 1 auto;
 		}*/
-		.nav2 {
+		/*.nav2 {
 			flex-direction: row;
-		}
+		}*/
 		.twitter-timeline{
 			display: flex;
 			flex-flow: column;

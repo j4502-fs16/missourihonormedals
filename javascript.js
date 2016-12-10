@@ -69,3 +69,9 @@ $(document).ready(function() {
     $('nav ul').slideToggle(500);
   });
 });
+
+$(document).ready(function() {
+  $('#year').click(function(){
+    $('.nav2').slideToggle(500);
+  });
+});
