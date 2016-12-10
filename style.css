@@ -509,6 +509,7 @@ a{
 }
 .prev:hover{
 	font-size:2em;
+	text-decoration: none;
 }
 .next {
 	font-size: 2em;
@@ -517,6 +518,7 @@ a{
 
 .next:hover{
 	font-size:2em;
+	text-decoration: none;
 }
 
 /*CARD STUFF FOR PAST RECIPIENTS*/
