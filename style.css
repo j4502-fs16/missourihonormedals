@@ -560,11 +560,12 @@ flex-flow: row;
 	display:flex;
 	flex-flow:row;
 	flex-wrap:wrap;
-	justify-content:space-between;
+	justify-content:space-around;
 	/*align-items:flex-start;*/
 }
 
 .mug{
+	border:none;
 	margin:15px;
 	width: 90%;
 	border-style: none;
