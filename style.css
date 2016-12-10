@@ -377,18 +377,6 @@ img{
 	width: 65%;
 }
 
-.side-p {
-	text-align: center;
-	margin: 3px;
-	color: #84754E;
-	font-size: 1.5em;
-	font-family: Janson, "Times New Roman", serif;
-	font-size: 1.5em;
-}
-
-.side-p a:link a:visited {
-	text-decoration: none;
-}
 
 .imghome{
 	/*display: flex;
