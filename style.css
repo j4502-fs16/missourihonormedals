@@ -403,13 +403,6 @@ img{
 	background-color: #DBD5CD;
 }
 
-.mug{
-	width: 150px;
-	border-style: none;
-	margin: 15px;
-	vertical-align:middle;
-}
-
 .caption{
 	font-size: .75em;
 	font-family: Janson, "Times New Roman", serif;
@@ -520,6 +513,29 @@ a{
 	font-size:2em;
 }
 
+/*CARD STUFF FOR PAST RECIPIENTS*/
+.card{
+	border:1px solid #84754E;
+	box-shadow: 1px 1px 3px #888;
+	padding:0;
+	margin:10px;
+	width:30%;
+	align-items:center;
+}
+
+.card-container{
+	margin:auto;
+	display:flex;
+	flex-flow:row;
+	flex-wrap:wrap;
+}
+
+.mug{
+	margin:10px;
+	width: 70%;
+	border-style: none;
+	position:relative;
+}
 
 @media all and (max-width:950px){
 		.headbox{
@@ -542,6 +558,8 @@ a{
 			text-align: center;
 
 		}
+
+
 
 
 
