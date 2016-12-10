@@ -502,9 +502,24 @@ a{
 	text-align: center;
 	margin: 0px auto;
 }
+
+.slideshow-container {
+display: flex;
+align-items: center;
+justify-content:space-between;
+flex-flow: row;
+
+}
+.mySlides {
+	order: 2;
+	margin-right: 25px;
+}
 .prev {
 	font-size: 2em;
 	text-decoration: none;
+	float: left;
+	display: inline-block;
+	order: 1;
 
 }
 .prev:hover{
@@ -514,6 +529,9 @@ a{
 .next {
 	font-size: 2em;
 	text-decoration: none;
+	float: right;
+	display: inline-block;
+	order: 3;
 }
 
 .next:hover{
