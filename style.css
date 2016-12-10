@@ -538,7 +538,9 @@ flex-flow: row;
 	padding:0;
 	margin:10px;
 	width:30%;
+	flex-flow:column;
 	align-items:center;
+	justify-content:space-between;
 }
 
 .card-container{
@@ -546,11 +548,13 @@ flex-flow: row;
 	display:flex;
 	flex-flow:row;
 	flex-wrap:wrap;
+	justify-content:space-between;
+	/*align-items:flex-start;*/
 }
 
 .mug{
-	margin:10px;
-	width: 70%;
+	margin:15px;
+	width: 90%;
 	border-style: none;
 	position:relative;
 }
@@ -623,11 +627,11 @@ flex-flow: row;
 			font-size: 1.8em;
 		}
 
-		.mug{
+		/*.mug{
 			display: flex;
 			flex-flow: column;
 			flex: 1 auto;
-		}
+		}*/
 		.nom-mug{
 			width: 90%;
 			padding: 5px;
