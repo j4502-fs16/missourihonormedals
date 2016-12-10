@@ -152,7 +152,10 @@ a:hover, a:active{
 	margin:0px;
 }
 
-
+.side-pic a:hover a:active{
+	opacity: 80%;
+	background: transparent;
+}
 
 .twitter-timeline{
 	order:1;
@@ -807,6 +810,8 @@ flex-flow: row;
 	margin-top: 10px;
 	display: flex;
 }
+
+
 
 	.footer {
 		flex: 1 100%;
