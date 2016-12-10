@@ -515,7 +515,7 @@ flex-flow: row;
 	margin-right: 25px;
 }
 .prev {
-	font-size: 2em;
+	font-size: 4em;
 	text-decoration: none;
 	float: left;
 	display: inline-block;
@@ -523,11 +523,11 @@ flex-flow: row;
 
 }
 .prev:hover{
-	font-size:2em;
+	font-size:4em;
 	text-decoration: none;
 }
 .next {
-	font-size: 2em;
+	font-size: 4em;
 	text-decoration: none;
 	float: right;
 	display: inline-block;
@@ -535,7 +535,7 @@ flex-flow: row;
 }
 
 .next:hover{
-	font-size:2em;
+	font-size:4em;
 	text-decoration: none;
 }
 
@@ -669,6 +669,30 @@ flex-flow: row;
 	 	height: 100%;
 	 	width: 100%;
 
+	 }
+	 .prev {
+	 	font-size: 2em;
+	 	text-decoration: none;
+	 	float: left;
+	 	display: inline-block;
+	 	order: 1;
+
+	 }
+	 .prev:hover{
+	 	font-size:2em;
+	 	text-decoration: none;
+	 }
+	 .next {
+	 	font-size: 2em;
+	 	text-decoration: none;
+	 	float: right;
+	 	display: inline-block;
+	 	order: 3;
+	 }
+
+	 .next:hover{
+	 	font-size:2em;
+	 	text-decoration: none;
 	 }
 	#nav {
 			display: flex;
