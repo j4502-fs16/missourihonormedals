@@ -107,7 +107,7 @@ a:hover, a:active{
 
 }
 
-.parents, .parents-1, .parents-2, .parents-3, .parents-4 {
+.parents, .parents-1, .parents-2, .parents-3, .parents-4, .parents-5 {
 
 	display: block;
 	/*border-right: 1px solid #84754E;*/
@@ -411,11 +411,15 @@ img{
 	float: right;
 }
 
+.hrfooter{
+	width: 100%;
+	background-color: #84754E;
+}
+
 .footer{
   width: 100%;
   height: auto;
-  background-color: #000000;
-	color: #ffffff;
+	color: black;
 	text-align: left;
 	font-style: italic;
   font-family: Janson, "Times New Roman", serif;
@@ -513,6 +517,7 @@ a{
 	font-size:2em;
 }
 
+<<<<<<< HEAD
 /*CARD STUFF FOR PAST RECIPIENTS*/
 .card{
 	border:1px solid #84754E;
@@ -537,17 +542,20 @@ a{
 	position:relative;
 }
 
+=======
+>>>>>>> origin/master
 @media all and (max-width:950px){
 		.headbox{
 			flex-flow:column;
 		}
 		.mainnav{
-			padding:0px;
-			flex-flow:row;
-			justify-content:space-between;
+			padding: 0px;
+			display: flex;
+			width: 100%;
+			flex-flow:row nowrap;
+			justify-content:space-around;
 			flex:1 auto;
 			margin-top:0px;
-
 		}
 		.headphoto {
 			text-align: center;
@@ -556,13 +564,15 @@ a{
 			height: 60%;
 			width: 60%;
 			text-align: center;
-
 		}
+<<<<<<< HEAD
 
 
 
 
 
+=======
+>>>>>>> origin/master
 }
 
 	@media all and (max-width: 800px) {
@@ -587,7 +597,6 @@ a{
 	.slideshow-container {
 		height: 100%;
 		width: 100%;
-
 	}
 	}
 
@@ -637,7 +646,7 @@ a{
 			flex: 1 100%;
 		}
 
-		.parents, .parents-1, .parents-2, .parents-3, .parents-4 {
+		.parents, .parents-1, .parents-2, .parents-3, .parents-4, .parents-5 {
 		 border-right: none;
 		 border-bottom: 1px solid ;
 		 padding-top: 10px;
@@ -673,7 +682,7 @@ a{
 		width: 2em;
 	}
 
-	.parents, .parents-1, .parents-2, .parents-3, .parents-4 {
+	.parents, .parents-1, .parents-2, .parents-3, .parents-4, .parents-5 {
 	border-right: none;
 	border-bottom: 1px solid #84754E;
 	padding-top: 10px;
@@ -747,16 +756,18 @@ a{
 	margin: 0 auto;
 }
 
-
 #sidebar {
   order:2;
 	margin-top: 10px;
 	display: flex;
 }
 
-
-
 	.footer {
 		flex: 1 100%;
 		padding-right: 10px;
 	}
+
+.slideshow-container {
+	margin: 0 auto;
+}
+}
