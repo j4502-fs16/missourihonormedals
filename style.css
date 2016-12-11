@@ -147,15 +147,17 @@ a:hover, a:active{
 }
 
 .side-top {
-	width:75%;
+	width:70%;
 	order:1;
 	margin:0px;
 }
 
-.side-pic a:hover a:active{
-	opacity: 80%;
-	background: transparent;
+.home-history a:hover, .side-pic a:active{
+	opacity: 70% !important;
+	background: white !important;
 }
+
+
 
 .twitter-timeline{
 	order:1;
@@ -291,6 +293,7 @@ a:hover, a:active{
 }
 
 
+
 /* Large */
 /*.nav2 {
   display: flex;
@@ -356,6 +359,7 @@ h4{
 	margin: 0px;
 }
 
+
 p{
   font-family: "Proxima Nova", Helvetica, sans-serif;
   font-size: 1.1em;
@@ -396,14 +400,15 @@ img{
 }
 
 #sidebar {
+	padding-top: 65px;
 	display: flex;
 	flex-direction: column;
-	text-align: center;
-
-	width:25%;
+	text-align: left;
+	width:30%;
 	/*flex: 1 auto;*/
 		border-left: 1.5px solid #84754E;
 }
+
 
 .home-recipients {
 	padding-top: 15px;
@@ -855,10 +860,19 @@ flex-flow: row;
 
 #sidebar {
   order:2;
-	margin-top: 10px;
+	padding-top: 30px;
 	display: flex;
+	text-align: left;
 }
 
+#sidebar {
+	border-left: none;
+	width: 90%;
+}
+
+.side-top {
+		width:100%;
+}
 
 
 	.footer {
