@@ -618,18 +618,26 @@ flex-flow: row;
 }
 
 .hof-card{
-	width: 22%;
+	width: 20%;
 	padding:10px;
 }
 
 .hof-mug{
-	height:200px;
-	width:100%;
+	width:90%;
 }
 
 
 
 @media all and (max-width:950px){
+
+		.hof-card{
+			width:45%;
+		}
+
+		.hof{
+			justify-content:space-around;
+		}
+
 		.headbox{
 			flex-flow:column;
 		}
@@ -653,10 +661,14 @@ flex-flow: row;
 
 }
 
+
+
 	@media all and (max-width: 800px) {
 		/*.nav2 {
 	    justify-content: space-around;
 	  }*/
+
+
 		.twitter-timeline{
 			display: flex;
 			flex-flow: row;
@@ -689,6 +701,15 @@ flex-flow: row;
 	}
 	}
 
+	@media all and (max-width:700px){
+		.hof{
+			flex-flow:column;
+		}
+
+		.hof-card{
+			width:90%;
+		}
+	}
 
 	@media all and (max-width:600px){
 
