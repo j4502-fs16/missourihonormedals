@@ -180,7 +180,7 @@ a:hover, a:active{
 
 .nav2{
 	display:none;
-	width:75px;
+	width:94px;
 	margin:auto;
 }
 
@@ -204,6 +204,7 @@ a:hover, a:active{
 	flex-wrap: nowrap;
 	flex-flow: row;
 	flex-grow: 1;*/
+	list-style-type:none;
 }
 
 .nav2 a:link, a:visited{
