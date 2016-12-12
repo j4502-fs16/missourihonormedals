@@ -565,6 +565,7 @@ flex-flow: row;
 .prev:hover{
 	font-size:4em;
 	text-decoration: none;
+	cursor: pointer;
 
 }
 .next {
@@ -579,7 +580,7 @@ flex-flow: row;
 .next:hover{
 	font-size:4em;
 	text-decoration: none;
-
+	cursor: pointer;
 }
 
 /*CARD STUFF FOR PAST RECIPIENTS*/
