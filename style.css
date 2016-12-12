@@ -152,11 +152,6 @@ a:hover, a:active{
 	margin:0px;
 }
 
-.home-history a:hover, .side-pic a:active{
-	opacity: 70% !important;
-	background: white !important;
-}
-
 
 
 .twitter-timeline{
@@ -292,6 +287,17 @@ a:hover, a:active{
 	order:2;
 }
 
+
+.famous {
+	display: flex;
+	flex-flow: row;
+	order: 2;
+	flex: 1 auto;
+}
+
+.famous img {
+	width: 80%;
+}
 
 
 /* Large */
