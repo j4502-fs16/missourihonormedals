@@ -7,6 +7,11 @@ h1 {
 	font-size: 2em;
 }
 
+.boxxy{
+	max-width:900px;
+	margin:auto;
+}
+
 .ac-container input{
 	overflow: hidden;
 	position: relative;
@@ -26,6 +31,8 @@ box-shadow 0.1s linear;
 	border: 2px solid #84754E;
 	background-color: #DBD5CD;
 	padding-left: 20px;
+	max-width:750px;
+	margin:auto;
 }
 
 .search{
@@ -349,6 +356,7 @@ h1 a:hover, h1 a:active{
 
 h2{
 	font-family: Janson, "Times New Roman", serif;
+	font-weight:normal;
 	font-size: 3em;
 	margin: 15px auto;
 }
@@ -356,7 +364,7 @@ h2{
 h3{
 	font-family: Janson, "Times New Roman", serif;
 	font-size: 1.5em;
-	padding-left: 30px;
+	padding-left: 10px;
 	text-decoration:none;
 }
 
@@ -367,6 +375,9 @@ h4{
 	margin: 0px;
 }
 
+h1, h2, h3{
+	font-weight:normal;
+}
 
 p{
   font-family: "Proxima Nova", Helvetica, sans-serif;
