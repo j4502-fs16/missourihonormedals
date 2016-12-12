@@ -405,6 +405,8 @@ img{
 	flex-direction: column;
 	text-align: left;
 	width:30%;
+	padding-right: 30px;
+	padding-left: 30px;
 	/*flex: 1 auto;*/
 		border-left: 1.5px solid #84754E;
 }
@@ -863,6 +865,7 @@ flex-flow: row;
 	padding-top: 30px;
 	display: flex;
 	text-align: left;
+
 }
 
 #sidebar {
