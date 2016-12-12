@@ -293,6 +293,7 @@ a:hover, a:active{
 	flex-flow: row;
 	order: 2;
 	flex: 1 auto;
+
 }
 
 .famous img {
@@ -411,8 +412,7 @@ img{
 	flex-direction: column;
 	text-align: left;
 	width:30%;
-	padding-right: 30px;
-	padding-left: 30px;
+
 	/*flex: 1 auto;*/
 		border-left: 1.5px solid #84754E;
 }
@@ -423,7 +423,7 @@ img{
 }
 
 .side-pic {
-	width: 100%;
+	width: 90%;
 }
 
 
@@ -889,8 +889,8 @@ flex-flow: row;
   order:2;
 	padding-top: 30px;
 	display: flex;
-	padding-left: none;
 	text-align: left;
+	text-align: center;
 
 }
 
@@ -903,7 +903,9 @@ flex-flow: row;
 		width:100%;
 }
 
-
+.side-pic {
+	width: 100%;
+}
 	.footer {
 		flex: 1 100%;
 		padding-right: 10px;
