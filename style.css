@@ -604,6 +604,24 @@ flex-flow: row;
 	position:relative;
 }
 
+.hof{
+	display:flex;
+	flex-flow:row;
+	flex-wrap:wrap;
+	justify-content:space-between;
+}
+
+.hof-card{
+	width: 22%;
+	padding:10px;
+}
+
+.hof-mug{
+	height:200px;
+	width:100%;
+}
+
+
 
 @media all and (max-width:950px){
 		.headbox{
