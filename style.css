@@ -863,7 +863,12 @@ flex-flow: row;
 		width: 100%;
 		padding-left: 0px;
 	}
-
+.history-photo{
+	display:
+	float:left;
+	margin-right:10px;
+	max-width:400px;
+}
 .headphoto img{
 	width: 80%;
 	margin: 0px;
